@@ -1,0 +1,228 @@
+[{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb814"
+  },
+  "transport_type": "Flight",
+  "provider": "AirAsia",
+  "route": {
+    "origin": "Kuala Lumpur",
+    "destination": "Singapore"
+  },
+  "base_price": 150,
+  "amenities": [
+    "Meal",
+    "Baggage"
+  ],
+  "available_seats": 119,
+  "departure_date": {
+    "$date": "2026-02-01T10:00:00.000Z"
+  },
+  "status": "Delayed"
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb815"
+  },
+  "transport_type": "Flight",
+  "provider": "Malaysia Airlines",
+  "route": {
+    "origin": "Kuala Lumpur",
+    "destination": "London"
+  },
+  "base_price": 3200,
+  "amenities": [
+    "WiFi",
+    "Entertainment",
+    "Full Meal"
+  ],
+  "available_seats": 45,
+  "departure_date": {
+    "$date": "2026-02-15T23:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb816"
+  },
+  "transport_type": "Train",
+  "provider": "KTM ETS",
+  "route": {
+    "origin": "KL Sentral",
+    "destination": "Ipoh"
+  },
+  "base_price": 45,
+  "amenities": [
+    "Bistro",
+    "Power Socket"
+  ],
+  "available_seats": 80,
+  "departure_date": {
+    "$date": "2026-02-05T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb817"
+  },
+  "transport_type": "Train",
+  "provider": "KTM ETS",
+  "route": {
+    "origin": "KL Sentral",
+    "destination": "Padang Besar"
+  },
+  "base_price": 102,
+  "amenities": [
+    "Bistro",
+    "Toilet",
+    "Luggage Space"
+  ],
+  "available_seats": 12,
+  "departure_date": {
+    "$date": "2026-02-06T07:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb818"
+  },
+  "transport_type": "Car",
+  "provider": "Grab Rent",
+  "route": {
+    "origin": "Johor Bahru",
+    "destination": "Melaka"
+  },
+  "base_price": 250,
+  "amenities": [
+    "AC",
+    "Bluetooth",
+    "Insurance"
+  ],
+  "available_seats": 4,
+  "departure_date": {
+    "$date": "2026-02-10T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb819"
+  },
+  "transport_type": "Car",
+  "provider": "Socar",
+  "route": {
+    "origin": "Penang",
+    "destination": "Kuala Lumpur"
+  },
+  "base_price": 180,
+  "amenities": [
+    "AC"
+  ],
+  "available_seats": 5,
+  "departure_date": {
+    "$date": "2026-02-12T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb81a"
+  },
+  "transport_type": "Ferry",
+  "provider": "Langkawi Ferry Line",
+  "route": {
+    "origin": "Kuala Perlis",
+    "destination": "Langkawi"
+  },
+  "base_price": 21,
+  "amenities": [
+    "TV",
+    "AC",
+    "Free Water"
+  ],
+  "available_seats": 200,
+  "departure_date": {
+    "$date": "2026-02-20T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb81b"
+  },
+  "transport_type": "Ferry",
+  "provider": "Batam Fast",
+  "route": {
+    "origin": "Johor Bahru",
+    "destination": "Batam"
+  },
+  "base_price": 85,
+  "amenities": [
+    "VIP Lounge",
+    "Snacks",
+    "Free Water"
+  ],
+  "available_seats": 50,
+  "departure_date": {
+    "$date": "2026-02-22T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb81c"
+  },
+  "transport_type": "Flight",
+  "provider": "Singapore Airlines",
+  "route": {
+    "origin": "Singapore",
+    "destination": "Tokyo"
+  },
+  "base_price": 1800,
+  "amenities": [
+    "Premium Dining",
+    "WiFi",
+    "Sleep Kit"
+  ],
+  "available_seats": 25,
+  "departure_date": {
+    "$date": "2026-03-01T06:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb81d"
+  },
+  "transport_type": "Train",
+  "provider": "ERL",
+  "route": {
+    "origin": "KL Sentral",
+    "destination": "KLIA"
+  },
+  "base_price": 55,
+  "amenities": [
+    "WiFi",
+    "Speedy Boarding"
+  ],
+  "available_seats": 150,
+  "departure_date": {
+    "$date": "2026-01-20T05:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c4584d9f5104bf49bb81e"
+  },
+  "transport_type": "Ferry",
+  "provider": "Star Cruises",
+  "route": {
+    "origin": "Penang",
+    "destination": "Phuket"
+  },
+  "base_price": 1200,
+  "amenities": [
+    "Pool",
+    "Buffet",
+    "Cabin",
+    "Free Water"
+  ],
+  "available_seats": 50,
+  "departure_date": {
+    "$date": "2026-03-10T09:00:00.000Z"
+  }
+}]

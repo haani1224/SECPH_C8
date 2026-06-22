@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "696c7758d9f5104bf49bb829"
+  },
+  "user_id": {
+    "$oid": "696c45bcd9f5104bf49bb822"
+  },
+  "travel_id": {
+    "$oid": "696c4584d9f5104bf49bb814"
+  },
+  "passengers": [
+    {
+      "name": "Ahmad Zaki",
+      "age": 30,
+      "passport": "A1234567"
+    },
+    {
+      "name": "Siti Aminah",
+      "age": 28,
+      "passport": "B7654321"
+    }
+  ],
+  "booking_date": {
+    "$date": "2026-01-18T06:02:00.292Z"
+  },
+  "status": "Confirmed",
+  "total_amount": 300
+},
+{
+  "_id": {
+    "$oid": "696c7758d9f5104bf49bb82a"
+  },
+  "user_id": {
+    "$oid": "696c45bcd9f5104bf49bb820"
+  },
+  "travel_id": {
+    "$oid": "696c4584d9f5104bf49bb816"
+  },
+  "passengers": [
+    {
+      "name": "Siti Sarah",
+      "age": 25,
+      "id_no": "990101-01-5000"
+    }
+  ],
+  "booking_date": {
+    "$date": "2026-01-10T14:30:00.000Z"
+  },
+  "status": "Confirmed",
+  "total_amount": 45
+},
+{
+  "_id": {
+    "$oid": "696c7758d9f5104bf49bb82b"
+  },
+  "user_id": {
+    "$oid": "696c45bcd9f5104bf49bb820"
+  },
+  "travel_id": {
+    "$oid": "696c4584d9f5104bf49bb818"
+  },
+  "passengers": [
+    {
+      "name": "Siti Sarah",
+      "age": 25,
+      "id_no": "990101-01-5000"
+    },
+    {
+      "name": "Ali Bakar",
+      "age": 26,
+      "id_no": "980505-01-6000"
+    }
+  ],
+  "booking_date": {
+    "$date": "2026-01-12T09:15:00.000Z"
+  },
+  "status": "Confirmed",
+  "total_amount": 250
+}]

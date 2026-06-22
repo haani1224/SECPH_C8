@@ -1,0 +1,1068 @@
+modelyear,maker,model,vehicleclass,enginesize,cylinders,transmission,fueltype,fuelconsumption_city,fuelconsumption_hwy,fuelconsumption_comb,fuelconsumption_comb_mpg,co2emissions
+2014,acura,ilx,compact,2.0,4,as5,z,9.9,6.7,8.5,33,196
+2014,acura,ilx,compact,2.4,4,m6,z,11.2,7.7,9.6,29,221
+2014,acura,ilx hybrid,compact,1.5,4,av7,z,6.0,5.8,5.9,48,136
+2014,acura,mdx 4wd,suv - small,3.5,6,as6,z,12.7,9.1,11.1,25,255
+2014,acura,rdx awd,suv - small,3.5,6,as6,z,12.1,8.7,10.6,27,244
+2014,acura,rlx,mid-size,3.5,6,as6,z,11.9,7.7,10.0,28,230
+2014,acura,tl,mid-size,3.5,6,as6,z,11.8,8.1,10.1,28,232
+2014,acura,tl awd,mid-size,3.7,6,as6,z,12.8,9.0,11.1,25,255
+2014,acura,tl awd,mid-size,3.7,6,m6,z,13.4,9.5,11.6,24,267
+2014,acura,tsx,compact,2.4,4,as5,z,10.6,7.5,9.2,31,212
+2014,acura,tsx,compact,2.4,4,m6,z,11.2,8.1,9.8,29,225
+2014,acura,tsx,compact,3.5,6,as5,z,12.1,8.3,10.4,27,239
+2014,aston martin,db9,minicompact,5.9,12,a6,z,18.0,12.6,15.6,18,359
+2014,aston martin,rapide,subcompact,5.9,12,a6,z,18.0,12.6,15.6,18,359
+2014,aston martin,v8 vantage,two-seater,4.7,8,am7,z,17.4,11.3,14.7,19,338
+2014,aston martin,v8 vantage,two-seater,4.7,8,m6,z,18.1,12.2,15.4,18,354
+2014,aston martin,v8 vantage s,two-seater,4.7,8,am7,z,17.4,11.3,14.7,19,338
+2014,aston martin,v8 vantage s,two-seater,4.7,8,m6,z,18.1,12.2,15.4,18,354
+2014,aston martin,vanquish,minicompact,5.9,12,a6,z,18.0,12.6,15.6,18,359
+2014,audi,a4,compact,2.0,4,av8,z,9.9,7.4,8.8,32,202
+2014,audi,a4 quattro,compact,2.0,4,as8,z,11.5,8.1,10.0,28,230
+2014,audi,a4 quattro,compact,2.0,4,m6,z,10.8,7.5,9.3,30,214
+2014,audi,a5 cabriolet quattro,subcompact,2.0,4,as8,z,11.5,8.1,10.0,28,230
+2014,audi,a5 quattro,subcompact,2.0,4,as8,z,11.5,8.1,10.0,28,230
+2014,audi,a5 quattro,subcompact,2.0,4,m6,z,10.8,7.5,9.3,30,214
+2014,audi,a6 quattro,mid-size,2.0,4,as8,z,12.0,8.1,10.2,28,235
+2014,audi,a6 quattro,mid-size,3.0,6,as8,z,12.8,8.6,10.9,26,251
+2014,audi,a6 quattro tdi clean diesel,mid-size,3.0,6,as8,d,9.8,6.4,8.3,34,224
+2014,audi,a7 quattro,mid-size,3.0,6,as8,z,13.1,8.8,11.2,25,258
+2014,audi,a7 quattro tdi clean diesel,mid-size,3.0,6,as8,d,9.8,6.4,8.3,34,224
+2014,audi,a8,mid-size,3.0,6,as8,z,13.1,8.8,11.2,25,258
+2014,audi,a8,mid-size,4.0,8,as8,z,13.5,8.6,11.3,25,260
+2014,audi,a8 tdi clean diesel,mid-size,3.0,6,as8,d,10.0,6.4,8.4,34,227
+2014,audi,a8l,full-size,3.0,6,as8,z,13.1,8.8,11.2,25,258
+2014,audi,a8l,full-size,4.0,8,as8,z,14.7,9.7,12.5,23,288
+2014,audi,a8l,full-size,6.3,12,as8,z,18.2,12.6,15.7,18,361
+2014,audi,a8l tdi clean diesel,full-size,3.0,6,as8,d,10.1,6.5,8.5,33,230
+2014,audi,allroad quattro,station wagon - small,2.0,4,as8,z,11.8,8.8,10.5,27,242
+2014,audi,q5,suv - small,2.0,4,as8,z,12.0,8.5,10.4,27,239
+2014,audi,q5,suv - small,3.0,6,as8,z,12.9,9.2,11.2,25,258
+2014,audi,q5 hybrid,suv - small,2.0,4,as8,z,9.9,8.3,9.2,31,212
+2014,audi,q5 tdi clean diesel,suv - small,3.0,6,as8,d,10.3,7.6,9.1,31,246
+2014,audi,q7,suv - standard,3.0,6,as8,z,15.1,10.9,13.2,21,304
+2014,audi,q7 tdi clean diesel,suv - standard,3.0,6,as8,d,12.9,8.4,10.9,26,294
+2014,audi,r8,two-seater,4.2,8,a7,z,17.6,11.0,14.6,19,336
+2014,audi,r8,two-seater,4.2,8,m6,z,21.2,13.4,17.7,16,407
+2014,audi,r8,two-seater,5.2,10,a7,z,18.8,11.3,15.4,18,354
+2014,audi,r8,two-seater,5.2,10,m6,z,21.1,13.8,17.8,16,409
+2014,audi,r8 spyder,two-seater,4.2,8,a7,z,17.6,11.0,14.6,19,336
+2014,audi,r8 spyder,two-seater,4.2,8,m6,z,21.2,13.4,17.7,16,407
+2014,audi,r8 spyder,two-seater,5.2,10,a7,z,18.8,11.3,15.4,18,354
+2014,audi,r8 spyder,two-seater,5.2,10,m6,z,21.1,13.8,17.8,16,409
+2014,audi,rs5,subcompact,4.2,8,a7,z,15.3,10.9,13.3,21,306
+2014,audi,rs5 cabriolet,subcompact,4.2,8,a7,z,15.2,11.3,13.4,21,308
+2014,audi,rs7,mid-size,4.0,8,as8,z,15.3,9.3,12.6,22,290
+2014,audi,s4,compact,3.0,6,a7,z,13.2,9.2,11.4,25,262
+2014,audi,s4,compact,3.0,6,m6,z,14.6,9.8,12.4,23,285
+2014,audi,s5,subcompact,3.0,6,a7,z,13.2,9.2,11.4,25,262
+2014,audi,s5,subcompact,3.0,6,m6,z,14.6,9.8,12.4,23,285
+2014,audi,s5 cabriolet,subcompact,3.0,6,a7,z,13.3,9.5,11.6,24,267
+2014,audi,s6,mid-size,4.0,8,a7,z,14.2,9.7,12.2,23,281
+2014,audi,s7,mid-size,4.0,8,a7,z,14.2,9.7,12.2,23,281
+2014,audi,s8,mid-size,4.0,8,as8,z,15.4,9.8,12.9,22,297
+2014,audi,sq5,suv - small,3.0,6,as8,z,14.9,10.1,12.7,22,292
+2014,audi,tt coupe quattro,subcompact,2.0,4,a6,z,10.4,7.6,9.1,31,209
+2014,audi,tt roadster quattro,two-seater,2.0,4,a6,z,10.4,7.6,9.1,31,209
+2014,audi,tts coupe quattro,subcompact,2.0,4,a6,z,11.5,8.8,10.3,27,237
+2014,audi,tts roadster quattro,two-seater,2.0,4,a6,z,11.5,8.8,10.3,27,237
+2014,bentley,continental gt,subcompact,4.0,8,as8,z,15.4,9.8,12.9,22,297
+2014,bentley,continental gt,subcompact,6.0,12,as8,z,18.8,11.5,15.5,18,356
+2014,bentley,continental gt convertible,subcompact,4.0,8,as8,z,16.8,10.3,13.9,20,320
+2014,bentley,continental gt speed convertible,subcompact,6.0,12,as8,z,20.0,12.2,16.5,17,380
+2014,bentley,continental gtc,subcompact,4.0,8,as8,z,16.7,10.6,14.0,20,322
+2014,bentley,continental gtc,subcompact,6.0,12,as8,z,20.0,12.2,16.5,17,380
+2014,bentley,flying spur,mid-size,6.0,12,as8,z,20.0,12.2,16.5,17,380
+2014,bentley,mulsanne,mid-size,6.8,8,as8,z,22.3,14.9,19.0,15,437
+2014,bmw,320i,compact,2.0,4,a8,z,10.0,6.5,8.4,34,193
+2014,bmw,320i,compact,2.0,4,m6,z,10.4,6.7,8.7,32,200
+2014,bmw,320i xdrive,compact,2.0,4,a8,z,10.2,7.0,8.8,32,202
+2014,bmw,328d xdrive,compact,2.0,4,a8,d,7.6,5.5,6.7,42,181
+2014,bmw,328d xdrive touring,station wagon - small,2.0,4,a8,d,7.6,5.5,6.7,42,181
+2014,bmw,328i,compact,2.0,4,a8,z,10.0,6.5,8.4,34,193
+2014,bmw,328i,compact,2.0,4,m6,z,10.4,6.7,8.7,32,200
+2014,bmw,328i xdrive,compact,2.0,4,a8,z,10.6,7.2,9.1,31,209
+2014,bmw,328i xdrive gran turismo,full-size,2.0,4,a8,z,10.6,7.2,9.1,31,209
+2014,bmw,328i xdrive touring,station wagon - small,2.0,4,a8,z,10.6,7.2,9.1,31,209
+2014,bmw,335i,compact,3.0,6,a8,z,11.4,7.3,9.6,29,221
+2014,bmw,335i,compact,3.0,6,m6,z,11.8,7.9,10.0,28,230
+2014,bmw,335i xdrive,compact,3.0,6,a8,z,11.7,7.8,9.9,29,228
+2014,bmw,335i xdrive,compact,3.0,6,m6,z,11.9,8.3,10.3,27,237
+2014,bmw,335i xdrive gran turismo,full-size,3.0,6,a8,z,11.9,8.0,10.1,28,232
+2014,bmw,428i coupe,compact,2.0,4,a8,z,10.0,6.5,8.4,34,193
+2014,bmw,428i coupe,compact,2.0,4,m6,z,10.4,6.7,8.7,32,200
+2014,bmw,428i xdrive coupe,compact,2.0,4,a8,z,10.6,7.2,9.1,31,209
+2014,bmw,435i coupe,compact,3.0,6,a8,z,11.4,7.3,9.6,29,221
+2014,bmw,435i coupe,compact,3.0,6,m6,z,11.8,7.9,10.0,28,230
+2014,bmw,435i xdrive coupe,compact,3.0,6,a8,z,11.7,7.8,9.9,29,228
+2014,bmw,435i xdrive coupe,compact,3.0,6,m6,z,11.9,8.3,10.3,27,237
+2014,bmw,528i,mid-size,2.0,4,a8,z,10.2,7.0,8.8,32,202
+2014,bmw,528i xdrive,mid-size,2.0,4,a8,z,10.6,7.2,9.1,31,209
+2014,bmw,535d xdrive,mid-size,3.0,6,a8,d,9.2,6.4,7.9,36,213
+2014,bmw,535i xdrive,mid-size,3.0,6,a8,z,11.9,8.0,10.1,28,232
+2014,bmw,535i xdrive gran turismo,full-size,3.0,6,a8,z,12.5,8.6,10.7,26,246
+2014,bmw,550i xdrive,mid-size,4.4,8,a8,z,14.4,9.6,12.2,23,281
+2014,bmw,550i xdrive gran turismo,full-size,4.4,8,a8,z,15.0,9.8,12.7,22,292
+2014,bmw,640i xdrive gran coupe,compact,3.0,6,a8,z,11.9,8.0,10.1,28,232
+2014,bmw,650i xdrive cabriolet,subcompact,4.4,8,a8,z,15.0,9.8,12.7,22,292
+2014,bmw,650i xdrive coupe,compact,4.4,8,a8,z,14.4,9.6,12.2,23,281
+2014,bmw,650i xdrive gran coupe,compact,4.4,8,a8,z,15.0,9.8,12.7,22,292
+2014,bmw,740li xdrive,full-size,3.0,6,a8,z,12.5,8.6,10.7,26,246
+2014,bmw,750i xdrive,full-size,4.4,8,a8,z,15.0,9.8,12.7,22,292
+2014,bmw,750li xdrive,full-size,4.4,8,a8,z,15.0,9.8,12.7,22,292
+2014,bmw,760li,full-size,6.0,12,a8,z,18.7,11.5,15.5,18,356
+2014,bmw,activehybrid 3,compact,3.0,6,a8,z,9.2,7.1,8.3,34,191
+2014,bmw,activehybrid 5,mid-size,3.0,6,a8,z,10.5,7.9,9.3,30,214
+2014,bmw,activehybrid 7l,full-size,3.0,6,a8,z,10.5,7.6,9.2,31,212
+2014,bmw,alpina b7 xdrive lwb,full-size,4.4,8,a8,z,15.0,9.8,12.7,22,292
+2014,bmw,alpina b7 xdrive swb,full-size,4.4,8,a8,z,15.0,9.8,12.7,22,292
+2014,bmw,m5,mid-size,4.4,8,am7,z,17.3,11.5,14.7,19,338
+2014,bmw,m5,mid-size,4.4,8,m6,z,16.2,10.9,13.8,20,317
+2014,bmw,m6,compact,4.4,8,am7,z,17.3,11.5,14.7,19,338
+2014,bmw,m6,compact,4.4,8,m6,z,16.2,10.9,13.8,20,317
+2014,bmw,m6 cabriolet,subcompact,4.4,8,am7,z,17.3,11.5,14.7,19,338
+2014,bmw,m6 cabriolet,subcompact,4.4,8,m6,z,16.2,10.9,13.8,20,317
+2014,bmw,m6 gran coupe,compact,4.4,8,am7,z,17.3,11.5,14.7,19,338
+2014,bmw,m6 gran coupe,compact,4.4,8,m6,z,16.2,10.9,13.8,20,317
+2014,bmw,x1 xdrive28i,suv - small,2.0,4,a8,z,10.6,7.2,9.1,31,209
+2014,bmw,x1 xdrive35i,suv - small,3.0,6,a6,z,13.2,8.9,11.3,25,260
+2014,bmw,x3 xdrive28i,suv - small,2.0,4,a8,z,11.2,8.5,10.0,28,230
+2014,bmw,x3 xdrive35i,suv - small,3.0,6,a8,z,12.6,9.1,11.0,26,253
+2014,bmw,x5 xdrive35i,suv - standard,3.0,6,a8,z,12.9,8.8,11.1,25,255
+2014,bmw,x5 xdrive50i,suv - standard,4.4,8,a8,z,16.3,10.9,13.9,20,320
+2014,bmw,x6 m,suv - standard,4.4,8,a6,z,18.1,13.7,16.1,18,370
+2014,bmw,x6 xdrive35i,suv - standard,3.0,6,a8,z,13.6,9.8,11.9,24,274
+2014,bmw,x6 xdrive50i,suv - standard,4.4,8,a8,z,16.4,11.3,14.1,20,324
+2014,bmw,z4 sdrive28i,two-seater,2.0,4,a8,z,10.8,7.1,9.1,31,209
+2014,bmw,z4 sdrive28i,two-seater,2.0,4,m6,z,10.4,6.7,8.7,32,200
+2014,bmw,z4 sdrive35i,two-seater,3.0,6,am7,z,13.7,10.1,12.1,23,278
+2014,bmw,z4 sdrive35i,two-seater,3.0,6,m6,z,12.7,9.0,11.0,26,253
+2014,bmw,z4 sdrive35is,two-seater,3.0,6,am7,z,13.7,10.1,12.1,23,278
+2014,buick,enclave,suv - standard,3.6,6,a6,x,14.3,9.9,12.3,23,283
+2014,buick,enclave awd,suv - standard,3.6,6,a6,x,14.6,10.2,12.6,22,290
+2014,buick,encore,suv - small,1.4,4,as6,x,9.5,7.2,8.5,33,196
+2014,buick,encore awd,suv - small,1.4,4,as6,x,10.2,8.0,9.2,31,212
+2014,buick,lacrosse,mid-size,3.6,6,as6,x,13.7,8.7,11.5,25,264
+2014,buick,lacrosse,mid-size,3.6,6,as6,e,18.4,12.2,15.6,18,250
+2014,buick,lacrosse awd,mid-size,3.6,6,as6,x,13.7,8.9,11.5,25,264
+2014,buick,lacrosse awd,mid-size,3.6,6,as6,e,19.4,13.0,16.5,17,264
+2014,buick,lacrosse eassist,mid-size,2.4,4,as6,x,9.6,6.5,8.2,34,189
+2014,buick,regal,mid-size,2.0,4,as6,z,11.5,7.9,9.9,29,228
+2014,buick,regal,mid-size,2.0,4,m6,z,11.6,7.5,9.8,29,225
+2014,buick,regal awd,mid-size,2.0,4,as6,z,12.3,8.7,10.7,26,246
+2014,buick,regal eassist,mid-size,2.4,4,as6,x,9.6,6.5,8.2,34,189
+2014,buick,verano,compact,2.0,4,as6,z,11.5,7.9,9.9,29,228
+2014,buick,verano,compact,2.0,4,m6,z,11.6,7.5,9.8,29,225
+2014,buick,verano,compact,2.4,4,as6,x,11.3,7.4,9.5,30,218
+2014,cadillac,ats,compact,2.0,4,as6,z,11.3,7.5,9.6,29,221
+2014,cadillac,ats,compact,2.0,4,m6,z,12.1,7.9,10.2,28,235
+2014,cadillac,ats,compact,2.5,4,as6,x,10.5,7.2,9.0,31,207
+2014,cadillac,ats,compact,3.6,6,as6,x,12.8,8.5,10.9,26,251
+2014,cadillac,ats awd,compact,2.0,4,as6,z,11.8,8.1,10.1,28,232
+2014,cadillac,ats awd,compact,3.6,6,as6,x,13.1,9.0,11.3,25,260
+2014,cadillac,cts coupe,mid-size,3.6,6,as6,x,13.2,8.7,11.2,25,258
+2014,cadillac,cts coupe awd,mid-size,3.6,6,as6,x,13.3,9.0,11.4,25,262
+2014,cadillac,cts sedan,mid-size,2.0,4,as6,z,11.9,7.9,10.1,28,232
+2014,cadillac,cts sedan,mid-size,3.6,6,as8,x,12.9,8.2,10.8,26,248
+2014,cadillac,cts sedan awd,mid-size,2.0,4,as6,z,12.6,8.5,10.8,26,248
+2014,cadillac,cts sedan awd,mid-size,3.6,6,as6,x,13.1,9.0,11.3,25,260
+2014,cadillac,cts sedan vsport,mid-size,3.6,6,as8,z,15.1,9.9,12.8,22,294
+2014,cadillac,cts sport wagon,station wagon - small,3.0,6,as6,x,12.7,8.9,11.0,26,253
+2014,cadillac,cts sport wagon,station wagon - small,3.6,6,as6,x,13.3,8.9,11.3,25,260
+2014,cadillac,cts sport wagon awd,station wagon - small,3.0,6,as6,x,12.8,9.1,11.1,25,255
+2014,cadillac,cts sport wagon awd,station wagon - small,3.6,6,as6,x,13.3,9.0,11.4,25,262
+2014,cadillac,cts-v coupe,mid-size,6.2,8,as6,z,19.7,12.9,16.6,17,382
+2014,cadillac,cts-v coupe,mid-size,6.2,8,m6,z,16.7,12.5,14.8,19,340
+2014,cadillac,cts-v sedan,mid-size,6.2,8,as6,z,19.7,12.9,16.6,17,382
+2014,cadillac,cts-v sedan,mid-size,6.2,8,m6,z,16.7,12.5,14.8,19,340
+2014,cadillac,cts-v sport wagon,station wagon - small,6.2,8,as6,z,19.7,12.9,16.6,17,382
+2014,cadillac,cts-v sport wagon,station wagon - small,6.2,8,m6,z,16.7,12.5,14.8,19,340
+2014,cadillac,escalade awd,suv - standard,6.2,8,a6,z,17.0,11.8,14.7,19,338
+2014,cadillac,escalade awd,suv - standard,6.2,8,a6,e,23.3,16.1,20.1,14,322
+2014,cadillac,escalade esv awd,suv - standard,6.2,8,a6,z,18.8,13.4,16.4,17,377
+2014,cadillac,escalade esv awd,suv - standard,6.2,8,a6,e,25.7,17.8,22.1,13,354
+2014,cadillac,srx,suv - standard,3.6,6,as6,x,14.3,9.8,12.3,23,283
+2014,cadillac,srx awd,suv - standard,3.6,6,as6,x,14.8,10.4,12.8,22,294
+2014,cadillac,xts,full-size,3.6,6,as6,x,13.6,8.6,11.4,25,262
+2014,cadillac,xts awd,full-size,3.6,6,as6,x,14.0,9.1,11.8,24,271
+2014,cadillac,xts vsport awd,full-size,3.6,6,as6,z,14.8,9.8,12.6,22,290
+2014,chevrolet,camaro,compact,3.6,6,as6,x,13.2,8.7,11.2,25,258
+2014,chevrolet,camaro,compact,3.6,6,m6,x,14.2,8.6,11.7,24,269
+2014,chevrolet,camaro 2ls,compact,3.6,6,as6,x,12.7,7.9,10.5,27,242
+2014,chevrolet,camaro ss,compact,6.2,8,as6,z,15.3,9.8,12.8,22,294
+2014,chevrolet,camaro ss,compact,6.2,8,m6,z,15.0,9.9,12.7,22,292
+2014,chevrolet,camaro zl1,compact,6.2,8,as6,z,19.7,12.9,16.6,17,382
+2014,chevrolet,camaro zl1,compact,6.2,8,m6,z,16.7,12.5,14.8,19,340
+2014,chevrolet,corvette,two-seater,6.2,8,as6,z,14.9,8.5,12.0,24,276
+2014,chevrolet,corvette,two-seater,6.2,8,m7,z,13.7,8.2,11.2,25,258
+2014,chevrolet,cruze,mid-size,1.4,4,as6,x,9.1,6.3,7.8,36,179
+2014,chevrolet,cruze,mid-size,1.4,4,m6,x,9.1,6.3,7.8,36,179
+2014,chevrolet,cruze,mid-size,1.8,4,as6,x,10.5,6.7,8.8,32,202
+2014,chevrolet,cruze,mid-size,1.8,4,m6,x,9.5,6.5,8.2,34,189
+2014,chevrolet,cruze diesel,mid-size,2.0,4,as6,d,8.7,5.1,7.1,40,192
+2014,chevrolet,cruze eco,mid-size,1.4,4,a6,x,9.1,6.0,7.7,37,177
+2014,chevrolet,cruze eco,mid-size,1.4,4,m6,x,8.4,5.6,7.1,40,163
+2014,chevrolet,equinox,suv - small,2.4,4,a6,x,10.5,7.3,9.1,31,209
+2014,chevrolet,equinox,suv - small,3.6,6,a6,x,13.9,9.6,12.0,24,276
+2014,chevrolet,equinox,suv - small,3.6,6,a6,e,18.8,13.1,16.2,17,259
+2014,chevrolet,equinox awd,suv - small,2.4,4,a6,x,11.5,8.2,10.0,28,230
+2014,chevrolet,equinox awd,suv - small,3.6,6,a6,x,14.8,9.9,12.6,22,290
+2014,chevrolet,equinox awd,suv - small,3.6,6,a6,e,19.8,13.6,17.0,17,272
+2014,chevrolet,express 1500 cargo,van - cargo,4.3,6,a4,x,17.1,12.7,15.1,19,347
+2014,chevrolet,express 1500 cargo,van - cargo,5.3,8,a4,x,18.0,13.4,15.9,18,366
+2014,chevrolet,express 1500 cargo,van - cargo,5.3,8,a4,e,23.5,17.7,20.9,14,334
+2014,chevrolet,express 1500 cargo awd,van - cargo,5.3,8,a4,x,18.3,14.2,16.5,17,380
+2014,chevrolet,express 1500 cargo awd,van - cargo,5.3,8,a4,e,23.7,18.8,21.5,13,344
+2014,chevrolet,express 1500 cargo conv,van - cargo,5.3,8,a4,x,18.6,13.9,16.5,17,380
+2014,chevrolet,express 1500 cargo conv,van - cargo,5.3,8,a4,e,23.9,18.5,21.5,13,344
+2014,chevrolet,express 1500 cargo conv awd,van - cargo,5.3,8,a4,x,18.3,14.2,16.5,17,380
+2014,chevrolet,express 1500 cargo conv awd,van - cargo,5.3,8,a4,e,25.3,19.3,22.6,12,362
+2014,chevrolet,express 1500 passenger,van - passenger,5.3,8,a4,x,18.6,13.9,16.5,17,380
+2014,chevrolet,express 1500 passenger,van - passenger,5.3,8,a4,e,23.9,18.5,21.5,13,344
+2014,chevrolet,express 1500 passenger awd,van - passenger,5.3,8,a4,x,18.3,14.2,16.5,17,380
+2014,chevrolet,express 1500 passenger awd,van - passenger,5.3,8,a4,e,25.3,19.3,22.6,12,362
+2014,chevrolet,express 2500 passenger,van - passenger,4.8,8,a6,x,21.1,14.2,18.0,16,414
+2014,chevrolet,express 2500 passenger,van - passenger,6.0,8,a6,x,21.9,15.0,18.8,15,432
+2014,chevrolet,express 2500 passenger,van - passenger,6.0,8,a6,e,30.0,20.4,25.7,11,411
+2014,chevrolet,express 3500 passenger,van - passenger,4.8,8,a6,x,21.3,14.3,18.2,16,419
+2014,chevrolet,express 3500 passenger,van - passenger,6.0,8,a6,x,22.1,15.0,18.9,15,435
+2014,chevrolet,express 3500 passenger,van - passenger,6.0,8,a6,e,30.2,20.5,25.8,11,413
+2014,chevrolet,impala,full-size,2.5,4,as6,x,11.3,7.5,9.6,29,221
+2014,chevrolet,impala,full-size,3.6,6,as6,x,12.6,8.2,10.6,27,244
+2014,chevrolet,impala,full-size,3.6,6,as6,e,16.7,11.3,14.3,20,229
+2014,chevrolet,impala eco,full-size,2.4,4,as6,x,10.0,7.0,8.7,32,200
+2014,chevrolet,malibu,mid-size,2.0,4,as6,z,11.5,7.9,9.9,29,228
+2014,chevrolet,malibu,mid-size,2.5,4,as6,x,9.3,6.4,8.0,35,184
+2014,chevrolet,orlando,suv - small,2.4,4,as6,x,12.2,8.6,10.6,27,244
+2014,chevrolet,orlando,suv - small,2.4,4,m6,x,11.8,8.3,10.2,28,235
+2014,chevrolet,silverado,pickup truck - standard,4.3,6,a6,x,13.4,9.9,11.8,24,271
+2014,chevrolet,silverado,pickup truck - standard,4.3,6,a6,e,18.9,14.2,16.8,17,269
+2014,chevrolet,silverado,pickup truck - standard,5.3,8,a6,x,14.6,10.3,12.7,22,292
+2014,chevrolet,silverado,pickup truck - standard,5.3,8,a6,e,19.5,13.7,16.9,17,270
+2014,chevrolet,silverado,pickup truck - standard,6.2,8,a6,z,16.3,11.4,14.1,20,324
+2014,chevrolet,silverado 4wd,pickup truck - standard,4.3,6,a6,x,14.2,10.6,12.6,22,290
+2014,chevrolet,silverado 4wd,pickup truck - standard,4.3,6,a6,e,20.0,15.1,17.8,16,285
+2014,chevrolet,silverado 4wd,pickup truck - standard,5.3,8,a6,x,14.9,10.6,13.0,22,299
+2014,chevrolet,silverado 4wd,pickup truck - standard,5.3,8,a6,e,19.9,14.2,17.3,16,277
+2014,chevrolet,silverado 4wd,pickup truck - standard,6.2,8,a6,z,16.4,11.7,14.3,20,329
+2014,chevrolet,sonic,compact,1.4,4,as6,x,9.1,6.7,8.0,35,184
+2014,chevrolet,sonic,compact,1.4,4,m6,x,8.5,6.2,7.5,38,173
+2014,chevrolet,sonic,compact,1.8,4,as6,x,9.6,6.6,8.3,34,191
+2014,chevrolet,sonic,compact,1.8,4,m5,x,8.9,6.7,7.9,36,182
+2014,chevrolet,sonic 5,mid-size,1.4,4,as6,x,9.1,6.7,8.0,35,184
+2014,chevrolet,sonic 5,mid-size,1.4,4,m6,x,8.5,6.2,7.5,38,172
+2014,chevrolet,sonic 5,mid-size,1.8,4,as6,x,9.6,6.6,8.3,34,191
+2014,chevrolet,sonic 5,mid-size,1.8,4,m5,x,8.9,6.7,7.9,36,182
+2014,chevrolet,sonic 5 rs,mid-size,1.4,4,as6,x,9.4,7.0,8.3,34,191
+2014,chevrolet,sonic 5 rs,mid-size,1.4,4,m6,x,8.7,7.0,7.9,36,182
+2014,chevrolet,sonic rs,compact,1.4,4,as6,x,9.4,7.0,8.3,34,191
+2014,chevrolet,sonic rs,compact,1.4,4,m6,x,8.7,7.0,7.9,36,182
+2014,chevrolet,spark,subcompact,1.2,4,av,x,7.7,6.0,6.9,41,159
+2014,chevrolet,spark,subcompact,1.2,4,m5,x,7.6,6.0,6.9,41,159
+2014,chevrolet,suburban,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,chevrolet,suburban,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,chevrolet,suburban 4wd,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,chevrolet,suburban 4wd,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,chevrolet,tahoe,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,chevrolet,tahoe,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,chevrolet,tahoe 4wd,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,chevrolet,tahoe 4wd,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,chevrolet,traverse,suv - standard,3.6,6,a6,x,14.3,9.9,12.3,23,283
+2014,chevrolet,traverse awd,suv - standard,3.6,6,a6,x,14.6,10.2,12.6,22,290
+2014,chevrolet,trax,suv - small,1.4,4,as6,x,9.4,7.1,8.4,34,193
+2014,chevrolet,trax,suv - small,1.4,4,m6,x,9.1,6.8,8.1,35,186
+2014,chevrolet,trax awd,suv - small,1.4,4,as6,x,10.0,7.8,9.0,31,207
+2014,chrysler,300,full-size,3.6,6,a8,x,12.4,7.7,10.3,27,237
+2014,chrysler,200 convertible,compact,2.4,4,a4,x,11.7,8.2,10.1,28,232
+2014,chrysler,200 convertible,compact,2.4,4,a6,x,12.9,8.1,10.7,26,246
+2014,chrysler,200 convertible ffv,compact,3.6,6,a6,x,12.5,8.1,10.5,27,242
+2014,chrysler,200 convertible ffv,compact,3.6,6,a6,e,17.0,11.2,14.4,20,230
+2014,chrysler,200 sedan,mid-size,2.4,4,a4,x,11.2,8.0,9.8,29,225
+2014,chrysler,200 sedan,mid-size,2.4,4,a6,x,12.0,7.6,10.0,28,230
+2014,chrysler,200 sedan ffv,mid-size,3.6,6,a6,x,12.5,8.1,10.5,27,242
+2014,chrysler,200 sedan ffv,mid-size,3.6,6,a6,e,17.0,11.2,14.4,20,230
+2014,chrysler,300 (mds),full-size,5.7,8,a5,x,15.8,9.2,12.8,22,294
+2014,chrysler,300 awd,full-size,3.6,6,a8,x,12.8,8.6,10.9,26,251
+2014,chrysler,300 awd (mds),full-size,5.7,8,a5,x,16.1,10.0,13.4,21,308
+2014,chrysler,300 awd ffv,full-size,3.6,6,a8,x,12.8,8.6,10.9,26,251
+2014,chrysler,300 awd ffv,full-size,3.6,6,a8,e,17.3,11.7,14.8,19,237
+2014,chrysler,300 ffv,full-size,3.6,6,a8,x,12.4,7.7,10.3,27,237
+2014,chrysler,300 ffv,full-size,3.6,6,a8,e,16.8,10.3,13.9,20,222
+2014,chrysler,300 srt (mds),full-size,6.4,8,a5,z,16.7,10.3,13.8,20,317
+2014,chrysler,town & country ffv,minivan,3.6,6,a6,x,14.1,9.5,12.0,24,276
+2014,chrysler,town & country ffv,minivan,3.6,6,a6,e,19.7,13.3,16.8,17,269
+2014,dodge,avenger,mid-size,2.4,4,a4,x,11.2,8.0,9.8,29,225
+2014,dodge,avenger,mid-size,2.4,4,a6,x,12.0,7.6,10.0,28,230
+2014,dodge,avenger ffv,mid-size,3.6,6,a6,x,12.5,8.1,10.5,27,242
+2014,dodge,avenger ffv,mid-size,3.6,6,a6,e,17.0,11.2,14.4,20,230
+2014,dodge,challenger,mid-size,3.6,6,a5,x,13.2,8.7,11.2,25,258
+2014,dodge,challenger,mid-size,5.7,8,m6,x,15.6,10.0,13.1,22,301
+2014,dodge,challenger (mds),mid-size,5.7,8,a5,x,15.8,9.2,12.8,22,294
+2014,dodge,challenger srt,mid-size,6.4,8,m6,z,16.8,10.4,13.9,20,320
+2014,dodge,challenger srt (mds),mid-size,6.4,8,a5,z,16.7,10.3,13.8,20,317
+2014,dodge,charger,full-size,3.6,6,a5,x,13.2,8.7,11.2,25,258
+2014,dodge,charger,full-size,3.6,6,a8,x,12.4,7.7,10.3,27,237
+2014,dodge,charger (mds),full-size,5.7,8,a5,x,15.8,9.2,12.8,22,294
+2014,dodge,charger awd,full-size,3.6,6,a8,x,12.8,8.6,10.9,26,251
+2014,dodge,charger awd (mds),full-size,5.7,8,a5,x,16.1,10.0,13.4,21,308
+2014,dodge,charger awd ffv,full-size,3.6,6,a8,x,12.8,8.6,10.9,26,251
+2014,dodge,charger awd ffv,full-size,3.6,6,a8,e,17.3,11.7,14.8,19,237
+2014,dodge,charger ffv,full-size,3.6,6,a5,x,13.2,8.7,11.2,25,258
+2014,dodge,charger ffv,full-size,3.6,6,a5,e,18.3,12.6,15.7,18,251
+2014,dodge,charger ffv,full-size,3.6,6,a8,x,12.3,7.6,10.2,28,235
+2014,dodge,charger ffv,full-size,3.6,6,a8,e,16.8,10.3,13.9,20,222
+2014,dodge,charger srt (mds),full-size,6.4,8,a5,z,16.7,10.3,13.8,20,317
+2014,dodge,dart,mid-size,2.0,4,m6,x,9.4,6.5,8.1,35,186
+2014,dodge,dart,mid-size,2.4,4,a6,x,10.1,6.8,8.6,33,198
+2014,dodge,dart,mid-size,2.4,4,m6,x,10.5,6.7,8.8,32,202
+2014,dodge,dart ffv,mid-size,2.0,4,a6,x,9.9,7.0,8.6,33,198
+2014,dodge,dart ffv,mid-size,2.0,4,a6,e,14.2,9.8,12.2,23,195
+2014,dodge,dart gt,mid-size,2.4,4,a6,x,10.6,7.5,9.2,31,212
+2014,dodge,dart gt,mid-size,2.4,4,m6,x,10.2,7.0,8.8,32,202
+2014,dodge,dart turbo aero,mid-size,1.4,4,am6,x,8.4,5.9,7.3,39,168
+2014,dodge,dart turbo aero,mid-size,1.4,4,m6,x,8.5,5.8,7.3,39,168
+2014,dodge,durango awd (mds),suv - standard,5.7,8,a8,x,17.3,10.8,14.4,20,331
+2014,dodge,durango awd ffv,suv - standard,3.6,6,a8,x,13.9,9.8,12.1,23,278
+2014,dodge,durango awd ffv,suv - standard,3.6,6,a8,e,17.7,13.0,15.6,18,250
+2014,dodge,grand caravan ffv,minivan,3.6,6,a6,x,13.7,9.4,11.8,24,271
+2014,dodge,grand caravan ffv,minivan,3.6,6,a6,e,19.2,13.1,16.5,17,264
+2014,dodge,journey,suv - small,2.4,4,a4,x,12.7,9.1,11.1,25,255
+2014,dodge,journey awd,suv - small,3.6,6,a6,x,14.5,9.9,12.4,23,285
+2014,dodge,journey ffv,suv - small,3.6,6,a6,x,14.2,9.4,12.0,24,276
+2014,dodge,journey ffv,suv - small,3.6,6,a6,e,18.9,12.9,16.2,17,259
+2014,fiat,500 abarth cabrio,minicompact,1.4,4,m5,x,8.5,6.9,7.8,36,179
+2014,fiat,500 abarth hatchback,minicompact,1.4,4,m5,x,8.5,6.9,7.8,36,179
+2014,fiat,500 cabrio,minicompact,1.4,4,a6,x,8.7,6.9,7.9,36,182
+2014,fiat,500 cabrio,minicompact,1.4,4,m5,x,7.9,6.3,7.2,39,166
+2014,fiat,500 cabrio turbo,minicompact,1.4,4,m5,x,8.5,6.9,7.8,36,179
+2014,fiat,500 hatchback,minicompact,1.4,4,a6,x,8.7,6.9,7.9,36,182
+2014,fiat,500 hatchback,minicompact,1.4,4,m5,x,7.6,5.9,6.8,42,156
+2014,fiat,500 hatchback turbo,minicompact,1.4,4,m5,x,8.5,6.9,7.8,36,179
+2014,fiat,500l turbo,station wagon - small,1.4,4,am6,x,10.0,7.2,8.7,32,200
+2014,fiat,500l turbo,station wagon - small,1.4,4,m6,x,9.3,7.2,8.4,34,193
+2014,ford,c-max hybrid,full-size,2.0,4,av,x,5.6,6.4,6.0,47,138
+2014,ford,e150 van ffv,van - cargo,4.6,8,a4,x,17.7,14.4,16.2,17,373
+2014,ford,e150 van ffv,van - cargo,4.6,8,a4,e,24.1,19.2,21.9,13,350
+2014,ford,e150 van ffv,van - cargo,5.4,8,a4,x,19.3,14.7,17.2,16,396
+2014,ford,e150 van ffv,van - cargo,5.4,8,a4,e,24.9,19.6,22.5,13,360
+2014,ford,e150 wagon ffv,van - passenger,4.6,8,a4,x,18.6,14.6,16.8,17,386
+2014,ford,e150 wagon ffv,van - passenger,4.6,8,a4,e,25.5,20.0,23.0,12,368
+2014,ford,e350 wagon,van - passenger,6.8,10,a5,x,23.9,17.8,21.2,13,488
+2014,ford,e350 wagon ffv,van - passenger,5.4,8,a4,x,20.6,15.5,18.3,15,421
+2014,ford,e350 wagon ffv,van - passenger,5.4,8,a4,e,26.7,20.5,23.9,12,382
+2014,ford,edge,suv - small,2.0,4,a6,x,11.3,7.9,9.8,29,225
+2014,ford,edge,suv - small,3.5,6,as6,x,12.6,8.7,10.8,26,248
+2014,ford,edge awd,suv - small,3.5,6,as6,x,13.3,9.3,11.5,25,264
+2014,ford,edge awd,suv - small,3.7,6,as6,x,13.7,10.4,12.2,23,281
+2014,ford,escape,suv - small,1.6,4,as6,x,10.4,7.4,9.1,31,209
+2014,ford,escape,suv - small,2.0,4,as6,x,10.9,8.0,9.6,29,221
+2014,ford,escape,suv - small,2.5,4,as6,x,10.9,7.5,9.4,30,216
+2014,ford,escape awd,suv - small,1.6,4,as6,x,10.5,7.9,9.3,30,214
+2014,ford,escape awd,suv - small,2.0,4,as6,x,11.2,8.5,10.0,28,230
+2014,ford,expedition 4x4 ffv,suv - standard,5.4,8,a6,x,18.2,13.3,16.0,18,368
+2014,ford,expedition 4x4 ffv,suv - standard,5.4,8,a6,e,24.5,18.0,21.6,13,346
+2014,ford,explorer,suv - standard,2.0,4,a6,x,11.8,8.3,10.2,28,235
+2014,ford,explorer awd,suv - standard,3.5,6,as6,x,14.8,10.7,13.0,22,299
+2014,ford,explorer ffv,suv - standard,3.5,6,as6,x,13.7,9.7,11.9,24,274
+2014,ford,explorer ffv,suv - standard,3.5,6,as6,e,18.3,12.9,15.9,18,254
+2014,ford,explorer ffv awd,suv - standard,3.5,6,as6,x,14.3,10.3,12.5,23,288
+2014,ford,explorer ffv awd,suv - standard,3.5,6,as6,e,18.9,13.9,16.7,17,267
+2014,ford,f150,pickup truck - standard,3.5,6,a6,x,14.5,10.6,12.7,22,292
+2014,ford,f150,pickup truck - standard,3.5,6,as6,x,14.6,10.6,12.8,22,294
+2014,ford,f150,pickup truck - standard,6.2,8,as6,x,18.3,12.9,15.9,18,366
+2014,ford,f150 4x4,pickup truck - standard,3.5,6,a6,x,15.9,11.3,13.8,20,317
+2014,ford,f150 4x4,pickup truck - standard,3.5,6,as6,x,15.4,11.0,13.4,21,308
+2014,ford,f150 4x4,pickup truck - standard,6.2,8,as6,x,20.1,14.4,17.5,16,402
+2014,ford,f150 ffv,pickup truck - standard,3.7,6,a6,x,14.0,10.3,12.3,23,283
+2014,ford,f150 ffv,pickup truck - standard,3.7,6,a6,e,18.8,13.7,16.5,17,264
+2014,ford,f150 ffv,pickup truck - standard,3.7,6,as6,x,14.0,10.3,12.3,23,283
+2014,ford,f150 ffv,pickup truck - standard,3.7,6,as6,e,18.8,13.7,16.5,17,264
+2014,ford,f150 ffv,pickup truck - standard,5.0,8,a6,x,16.4,12.3,14.6,19,336
+2014,ford,f150 ffv,pickup truck - standard,5.0,8,a6,e,22.1,16.7,19.7,14,315
+2014,ford,f150 ffv,pickup truck - standard,5.0,8,as6,x,16.4,12.3,14.6,19,336
+2014,ford,f150 ffv,pickup truck - standard,5.0,8,as6,e,22.1,16.7,19.7,14,315
+2014,ford,f150 ffv 4x4,pickup truck - standard,3.7,6,a6,x,15.0,11.4,13.4,21,308
+2014,ford,f150 ffv 4x4,pickup truck - standard,3.7,6,a6,e,20.2,15.3,18.0,16,288
+2014,ford,f150 ffv 4x4,pickup truck - standard,3.7,6,as6,x,15.0,11.4,13.4,21,308
+2014,ford,f150 ffv 4x4,pickup truck - standard,3.7,6,as6,e,20.2,15.3,18.0,16,288
+2014,ford,f150 ffv 4x4,pickup truck - standard,5.0,8,a6,x,16.8,12.6,14.9,19,343
+2014,ford,f150 ffv 4x4,pickup truck - standard,5.0,8,a6,e,22.4,17.0,20.0,14,320
+2014,ford,f150 ffv 4x4,pickup truck - standard,5.0,8,as6,x,16.7,12.5,14.8,19,340
+2014,ford,f150 ffv 4x4,pickup truck - standard,5.0,8,as6,e,22.4,16.9,19.9,14,318
+2014,ford,f150 raptor 4x4,pickup truck - standard,6.2,8,as6,x,20.4,15.0,18.0,16,414
+2014,ford,fiesta,subcompact,1.6,4,as6,x,8.5,6.5,7.6,37,175
+2014,ford,fiesta,subcompact,1.6,4,m5,x,8.6,6.4,7.6,37,175
+2014,ford,fiesta sfe,subcompact,1.0,4,m5,x,7.5,5.5,6.6,43,152
+2014,ford,fiesta sfe,subcompact,1.6,4,as6,x,8.0,5.8,7.0,40,161
+2014,ford,fiesta st,compact,1.6,4,m6,x,8.9,6.8,8.0,35,184
+2014,ford,flex,suv - standard,3.5,6,as6,x,13.2,9.4,11.5,25,264
+2014,ford,flex awd,suv - standard,3.5,6,as6,x,13.7,10.2,12.1,23,278
+2014,ford,flex awd (ecoboost),suv - standard,3.5,6,as6,x,14.8,10.4,12.8,22,294
+2014,ford,focus,compact,2.0,4,m6,x,10.2,7.4,8.9,32,205
+2014,ford,focus ffv,compact,2.0,4,a6,x,8.8,6.4,7.7,37,177
+2014,ford,focus ffv,compact,2.0,4,a6,e,11.7,8.5,10.3,27,165
+2014,ford,focus ffv,compact,2.0,4,as6,x,8.9,6.4,7.8,36,179
+2014,ford,focus ffv,compact,2.0,4,as6,e,11.7,8.5,10.3,27,165
+2014,ford,focus ffv,compact,2.0,4,m5,x,9.1,6.6,8.0,35,184
+2014,ford,focus ffv,compact,2.0,4,m5,e,11.9,8.9,10.6,27,170
+2014,ford,focus sfe ffv,compact,2.0,4,a6,x,8.4,5.8,7.2,39,166
+2014,ford,focus sfe ffv,compact,2.0,4,a6,e,11.6,8.3,10.1,28,162
+2014,ford,fusion,mid-size,1.5,4,as6,x,10.1,6.6,8.5,33,196
+2014,ford,fusion,mid-size,1.6,4,m6,x,9.4,6.4,8.1,35,186
+2014,ford,fusion,mid-size,2.0,4,as6,x,10.5,7.1,9.0,31,207
+2014,ford,fusion,mid-size,2.5,4,as6,x,10.5,7.0,8.9,32,205
+2014,ford,fusion (start/stop),mid-size,1.5,4,as6,x,9.5,6.3,8.1,35,186
+2014,ford,fusion awd,mid-size,2.0,4,as6,x,10.9,7.5,9.4,30,216
+2014,ford,fusion hybrid,mid-size,2.0,4,av,x,5.3,5.7,5.5,51,126
+2014,ford,mustang,subcompact,3.7,6,a6,x,12.1,7.8,10.2,28,235
+2014,ford,mustang,subcompact,3.7,6,m6,x,12.7,8.1,10.6,27,244
+2014,ford,mustang,subcompact,5.0,8,a6,x,13.3,9.3,11.5,25,264
+2014,ford,mustang,subcompact,5.0,8,m6,x,15.4,9.4,12.7,22,292
+2014,ford,mustang,subcompact,5.8,8,m6,z,15.9,9.9,13.2,21,304
+2014,ford,mustang convertible,subcompact,3.7,6,a6,x,12.5,8.2,10.6,27,244
+2014,ford,taurus,full-size,2.0,4,as6,x,10.5,7.3,9.1,31,209
+2014,ford,taurus awd,full-size,3.5,6,as6,x,13.7,9.4,11.8,24,271
+2014,ford,taurus ffv,full-size,3.5,6,as6,x,12.1,8.1,10.3,27,237
+2014,ford,taurus ffv,full-size,3.5,6,as6,e,17.0,11.1,14.3,20,229
+2014,ford,taurus ffv awd,full-size,3.5,6,as6,x,13.0,9.1,11.2,25,258
+2014,ford,taurus ffv awd,full-size,3.5,6,as6,e,18.4,12.5,15.7,18,251
+2014,ford,transit connect,special purpose vehicle,1.6,4,as6,x,10.8,8.0,9.5,30,218
+2014,ford,transit connect,special purpose vehicle,2.5,4,as6,x,11.3,8.2,9.9,29,228
+2014,ford,transit connect taxi,special purpose vehicle,1.6,4,as6,x,11.5,8.3,10.1,28,232
+2014,ford,transit connect wagon,special purpose vehicle,2.5,4,as6,x,11.9,8.5,10.4,27,239
+2014,gmc,acadia,suv - standard,3.6,6,a6,x,14.3,9.9,12.3,23,283
+2014,gmc,acadia awd,suv - standard,3.6,6,a6,x,14.9,10.4,12.9,22,297
+2014,gmc,savana 1500 cargo,van - cargo,4.3,6,a4,x,17.1,12.7,15.1,19,347
+2014,gmc,savana 1500 cargo,van - cargo,5.3,8,a4,x,18.0,13.4,15.9,18,366
+2014,gmc,savana 1500 cargo,van - cargo,5.3,8,a4,e,23.5,17.7,20.9,14,334
+2014,gmc,savana 1500 cargo awd,van - cargo,5.3,8,a4,x,18.3,14.2,16.5,17,380
+2014,gmc,savana 1500 cargo awd,van - cargo,5.3,8,a4,e,23.7,18.8,21.5,13,344
+2014,gmc,savana 1500 cargo conv,van - cargo,5.3,8,a4,x,18.6,13.9,16.5,17,380
+2014,gmc,savana 1500 cargo conv,van - cargo,5.3,8,a4,e,23.9,18.5,21.5,13,344
+2014,gmc,savana 1500 cargo conv awd,van - cargo,5.3,8,a4,x,18.3,14.2,16.5,17,380
+2014,gmc,savana 1500 cargo conv awd,van - cargo,5.3,8,a4,e,25.3,19.3,22.6,12,362
+2014,gmc,savana 1500 passenger,van - passenger,5.3,8,a4,x,18.6,13.9,16.5,17,380
+2014,gmc,savana 1500 passenger,van - passenger,5.3,8,a4,e,23.9,18.5,21.5,13,344
+2014,gmc,savana 1500 passenger awd,van - passenger,5.3,8,a4,x,18.3,14.2,16.5,17,380
+2014,gmc,savana 1500 passenger awd,van - passenger,5.3,8,a4,e,25.3,19.3,22.6,12,362
+2014,gmc,savana 2500 passenger,van - passenger,4.8,8,a6,x,21.1,14.2,18.0,16,414
+2014,gmc,savana 2500 passenger,van - passenger,6.0,8,a6,x,21.9,15.0,18.8,15,432
+2014,gmc,savana 2500 passenger,van - passenger,6.0,8,a6,e,30.0,20.4,25.7,11,411
+2014,gmc,savana 3500 passenger,van - passenger,4.8,8,a6,x,21.3,14.3,18.2,16,419
+2014,gmc,savana 3500 passenger,van - passenger,6.0,8,a6,x,22.1,15.0,18.9,15,435
+2014,gmc,savana 3500 passenger,van - passenger,6.0,8,a6,e,30.2,20.5,25.8,11,413
+2014,gmc,sierra,pickup truck - standard,4.3,6,a6,x,13.4,9.9,11.8,24,271
+2014,gmc,sierra,pickup truck - standard,4.3,6,a6,e,18.9,14.2,16.8,17,269
+2014,gmc,sierra,pickup truck - standard,5.3,8,a6,x,14.6,10.3,12.7,22,292
+2014,gmc,sierra,pickup truck - standard,5.3,8,a6,e,19.5,13.7,16.9,17,270
+2014,gmc,sierra,pickup truck - standard,6.2,8,a6,z,16.3,11.4,14.1,20,324
+2014,gmc,sierra 4wd,pickup truck - standard,4.3,6,a6,x,14.2,10.6,12.6,22,290
+2014,gmc,sierra 4wd,pickup truck - standard,4.3,6,a6,e,20.0,15.1,17.8,16,285
+2014,gmc,sierra 4wd,pickup truck - standard,5.3,8,a6,x,14.9,10.6,13.0,22,299
+2014,gmc,sierra 4wd,pickup truck - standard,5.3,8,a6,e,19.9,14.2,17.3,16,277
+2014,gmc,sierra 4wd,pickup truck - standard,6.2,8,a6,z,16.4,11.7,14.3,20,329
+2014,gmc,terrain,suv - small,2.4,4,a6,x,10.5,7.3,9.1,31,209
+2014,gmc,terrain,suv - small,3.6,6,a6,x,13.9,9.6,12.0,24,276
+2014,gmc,terrain,suv - small,3.6,6,a6,e,18.8,13.1,16.2,17,259
+2014,gmc,terrain awd,suv - small,2.4,4,a6,x,11.5,8.2,10.0,28,230
+2014,gmc,terrain awd,suv - small,3.6,6,a6,x,14.8,9.9,12.6,22,290
+2014,gmc,terrain awd,suv - small,3.6,6,a6,e,19.8,13.6,17.0,17,272
+2014,gmc,yukon,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,gmc,yukon,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,gmc,yukon 4wd,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,gmc,yukon 4wd,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,gmc,yukon denali awd,suv - standard,6.2,8,a6,z,17.0,11.8,14.7,19,338
+2014,gmc,yukon denali awd,suv - standard,6.2,8,a6,e,23.3,16.1,20.1,14,322
+2014,gmc,yukon denali xl awd,suv - standard,6.2,8,a6,z,18.8,13.4,16.4,17,377
+2014,gmc,yukon denali xl awd,suv - standard,6.2,8,a6,e,25.7,17.8,22.1,13,354
+2014,gmc,yukon xl,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,gmc,yukon xl,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,gmc,yukon xl 4wd,suv - standard,5.3,8,a6,x,16.0,11.1,13.8,20,317
+2014,gmc,yukon xl 4wd,suv - standard,5.3,8,a6,e,21.5,14.6,18.4,15,294
+2014,honda,accord,mid-size,2.4,4,av,x,9.0,6.6,7.9,36,182
+2014,honda,accord,mid-size,2.4,4,av7,x,9.1,6.9,8.1,35,186
+2014,honda,accord,mid-size,2.4,4,m6,x,10.1,6.9,8.7,32,200
+2014,honda,accord,mid-size,3.5,6,a6,x,11.0,6.8,9.1,31,209
+2014,honda,accord,mid-size,3.5,6,as6,x,11.4,7.3,9.6,29,221
+2014,honda,accord,mid-size,3.5,6,m6,x,13.0,8.4,10.9,26,251
+2014,honda,accord hybrid,mid-size,2.0,4,av,x,4.7,4.9,4.8,59,110
+2014,honda,civic,compact,1.8,4,av,x,7.9,6.0,7.0,40,161
+2014,honda,civic,compact,1.8,4,av7,x,8.1,6.2,7.2,39,166
+2014,honda,civic,compact,1.8,4,m5,x,8.5,6.6,7.6,37,175
+2014,honda,crosstour awd,suv - small,3.5,6,a6,x,12.5,8.5,10.7,26,246
+2014,honda,cr-v,suv - small,2.4,4,a5,x,10.3,7.6,9.1,31,209
+2014,honda,cr-v awd,suv - small,2.4,4,a5,x,10.6,7.9,9.4,30,216
+2014,honda,cr-z,two-seater,1.5,4,av7,x,6.6,6.0,6.3,45,145
+2014,honda,cr-z,two-seater,1.5,4,m6,x,7.6,6.1,6.9,41,159
+2014,honda,fit,station wagon - small,1.5,4,a5,x,8.3,6.5,7.5,38,172
+2014,honda,fit,station wagon - small,1.5,4,m5,x,8.3,6.9,7.7,37,177
+2014,honda,odyssey,minivan,3.5,6,a6,x,12.3,8.5,10.6,27,244
+2014,honda,pilot,suv - small,3.5,6,a5,x,13.3,9.3,11.5,25,265
+2014,honda,pilot awd,suv - small,3.5,6,a5,x,13.9,9.7,12.0,24,276
+2014,honda,ridgeline awd,pickup truck - standard,3.5,6,a5,x,15.2,11.3,13.4,21,308
+2014,hyundai,accent,compact,1.6,4,a6,x,8.8,6.3,7.7,37,177
+2014,hyundai,accent,compact,1.6,4,m6,x,8.7,6.4,7.7,37,177
+2014,hyundai,elantra gt,mid-size,2.0,4,a6,x,9.8,7.2,8.6,33,198
+2014,hyundai,elantra gt,mid-size,2.0,4,m6,x,9.8,7.0,8.5,33,196
+2014,hyundai,equus,full-size,5.0,8,a8,z,15.7,10.2,13.2,21,304
+2014,hyundai,genesis,full-size,3.8,6,a8,x,13.0,8.7,11.1,25,255
+2014,hyundai,santa fe,suv - small,3.3,6,a6,x,13.0,9.1,11.2,25,258
+2014,hyundai,santa fe 4wd,suv - small,3.3,6,a6,x,13.3,9.5,11.6,24,267
+2014,hyundai,santa fe sport,suv - small,2.4,4,a6,x,11.6,8.7,10.3,27,237
+2014,hyundai,santa fe sport 4wd,suv - small,2.0,4,a6,x,12.9,9.7,11.5,25,264
+2014,hyundai,santa fe sport 4wd,suv - small,2.4,4,a6,x,12.5,9.4,11.1,25,255
+2014,hyundai,sonata,full-size,2.0,4,a6,x,11.4,7.5,9.6,29,221
+2014,hyundai,sonata,full-size,2.4,4,a6,x,9.8,7.0,8.5,33,196
+2014,hyundai,sonata hybrid,mid-size,2.4,4,as6,x,6.5,5.9,6.2,46,143
+2014,hyundai,sonata hybrid limited,mid-size,2.4,4,as6,x,6.6,5.9,6.3,45,145
+2014,hyundai,tucson,suv - small,2.0,4,a6,x,10.2,8.2,9.3,30,214
+2014,hyundai,tucson,suv - small,2.0,4,m6,x,11.4,8.6,10.1,28,232
+2014,hyundai,tucson,suv - small,2.4,4,a6,x,11.3,8.3,10.0,28,230
+2014,hyundai,tucson 4wd,suv - small,2.0,4,a6,x,11.4,9.3,10.5,27,242
+2014,hyundai,tucson 4wd,suv - small,2.4,4,a6,x,11.6,9.3,10.6,27,244
+2014,hyundai,veloster,compact,1.6,4,am6,x,8.6,6.6,7.7,37,177
+2014,hyundai,veloster,compact,1.6,4,m6,x,9.1,6.7,8.0,35,184
+2014,hyundai,veloster turbo,compact,1.6,4,a6,x,9.9,7.5,8.8,32,202
+2014,hyundai,veloster turbo,compact,1.6,4,m6,x,9.7,7.1,8.5,33,196
+2014,infiniti,q50,mid-size,3.7,6,as7,z,12.0,8.0,10.2,28,235
+2014,infiniti,q50 awd,mid-size,3.7,6,as7,z,12.6,8.7,10.8,26,248
+2014,infiniti,q50 hybrid,compact,3.5,6,as7,z,8.2,6.7,7.5,38,172
+2014,infiniti,q50 hybrid awd,compact,3.5,6,as7,z,8.7,7.5,8.2,34,189
+2014,infiniti,q60 awd coupe,subcompact,3.7,6,as7,z,13.3,9.4,11.5,25,265
+2014,infiniti,q60 convertible,subcompact,3.7,6,as7,z,13.6,9.3,11.7,24,269
+2014,infiniti,q60 convertible,subcompact,3.7,6,m6,z,14.3,9.8,12.3,23,283
+2014,infiniti,q60 coupe,subcompact,3.7,6,as7,z,12.9,8.9,11.1,25,255
+2014,infiniti,q60 coupe,subcompact,3.7,6,m6,z,13.5,9.3,11.6,24,267
+2014,infiniti,q70,mid-size,3.7,6,as7,z,12.8,8.9,11.0,26,253
+2014,infiniti,q70,mid-size,5.6,8,as7,z,14.5,9.5,12.3,23,283
+2014,infiniti,q70 awd,mid-size,3.7,6,as7,z,13.2,9.6,11.6,24,267
+2014,infiniti,q70 awd,mid-size,5.6,8,as7,z,15.0,10.2,12.8,22,294
+2014,infiniti,q70 hybrid,mid-size,3.5,6,as7,z,8.0,7.0,7.6,37,175
+2014,infiniti,qx50 awd,station wagon - small,3.7,6,as7,z,13.6,9.6,11.8,24,271
+2014,infiniti,qx60,suv - small,3.5,6,av,z,11.9,9.0,10.6,27,244
+2014,infiniti,qx60 awd,suv - small,3.5,6,av,z,12.3,9.3,11.0,26,253
+2014,infiniti,qx60 hybrid awd,suv - standard,2.5,4,av,x,8.8,8.2,8.5,33,196
+2014,infiniti,qx70 awd,suv - small,3.7,6,as7,z,14.5,10.7,12.8,22,294
+2014,infiniti,qx70 awd,suv - small,5.0,8,as7,z,16.6,11.9,14.5,19,334
+2014,infiniti,qx80 4wd,suv - standard,5.6,8,as7,z,17.4,12.1,15.0,19,345
+2014,jaguar,f-type convertible,two-seater,3.0,6,as8,z,11.8,8.4,10.3,27,237
+2014,jaguar,f-type s convertible,two-seater,3.0,6,as8,z,12.2,8.7,10.6,27,244
+2014,jaguar,f-type v8 s convertible,two-seater,5.0,8,as8,z,15.0,10.2,12.8,22,294
+2014,jaguar,xf,mid-size,2.0,4,as8,z,12.3,8.2,10.5,27,242
+2014,jaguar,xf 3.0l awd,mid-size,3.0,6,as8,z,14.7,9.1,12.2,23,281
+2014,jaguar,xfr,mid-size,5.0,8,as8,z,15.7,10.3,13.3,21,306
+2014,jaguar,xfr,mid-size,5.0,8,as8,e,21.3,14.1,18.1,16,290
+2014,jaguar,xfr-s,mid-size,5.0,8,as8,z,15.7,10.3,13.3,21,306
+2014,jaguar,xj awd,full-size,3.0,6,as8,z,14.6,9.6,12.4,23,285
+2014,jaguar,xj supercharged,full-size,5.0,8,as8,z,15.8,10.2,13.3,21,306
+2014,jaguar,xj supercharged,full-size,5.0,8,as8,e,20.6,13.6,17.5,16,280
+2014,jaguar,xjl awd portfolio,full-size,3.0,6,as8,z,14.7,9.6,12.4,23,285
+2014,jaguar,xjl supercharged,full-size,5.0,8,as8,z,15.8,10.2,13.3,21,306
+2014,jaguar,xjl supercharged,full-size,5.0,8,as8,e,20.6,13.6,17.5,16,280
+2014,jaguar,xjr,full-size,5.0,8,as8,z,15.8,10.2,13.3,21,306
+2014,jaguar,xjr lwb,full-size,5.0,8,as8,z,15.8,10.2,13.3,21,306
+2014,jaguar,xk convertible,minicompact,5.0,8,as6,z,15.1,10.6,13.1,22,301
+2014,jaguar,xk coupe,minicompact,5.0,8,as6,z,14.8,9.9,12.6,22,290
+2014,jaguar,xkr convertible,minicompact,5.0,8,as6,z,15.9,10.9,13.7,21,315
+2014,jaguar,xkr coupe,minicompact,5.0,8,as6,z,15.6,10.9,13.5,21,310
+2014,jaguar,xkr-s convertible,minicompact,5.0,8,as6,z,15.9,10.9,13.7,21,315
+2014,jaguar,xkr-s coupe,minicompact,5.0,8,as6,z,15.6,10.9,13.5,21,310
+2014,jeep,cherokee,suv - small,2.4,4,a9,x,10.9,7.7,9.5,30,218
+2014,jeep,cherokee,suv - small,3.2,6,a9,x,12.3,8.3,10.5,27,242
+2014,jeep,cherokee 4x4,suv - small,2.4,4,a9,x,11.3,8.3,10.0,28,230
+2014,jeep,cherokee 4x4,suv - small,3.2,6,a9,x,12.5,8.8,10.8,26,248
+2014,jeep,cherokee 4x4 active drive ii,suv - small,2.4,4,a9,x,11.4,8.6,10.1,28,232
+2014,jeep,cherokee 4x4 active drive ii,suv - small,3.2,6,a9,x,12.5,9.1,11.0,26,253
+2014,jeep,cherokee trailhawk 4x4,suv - small,2.4,4,a9,x,12.1,9.4,10.9,26,251
+2014,jeep,cherokee trailhawk 4x4,suv - small,3.2,6,a9,x,13.4,9.5,11.6,24,267
+2014,jeep,compass,suv - small,2.0,4,a6,x,11.1,8.3,9.8,29,225
+2014,jeep,compass,suv - small,2.0,4,m5,x,10.2,7.8,9.1,31,209
+2014,jeep,compass,suv - small,2.4,4,a6,x,11.1,8.3,9.8,29,225
+2014,jeep,compass,suv - small,2.4,4,m5,x,10.3,8.3,9.4,30,216
+2014,jeep,compass 4x4,suv - small,2.4,4,a6,x,11.4,8.7,10.2,28,235
+2014,jeep,compass 4x4,suv - small,2.4,4,m5,x,10.3,8.4,9.4,30,216
+2014,jeep,compass 4x4 trail rated,suv - small,2.4,4,av,x,11.7,10.3,11.1,25,255
+2014,jeep,grand cherokee 4x4 (mds),suv - standard,5.7,8,a8,x,17.3,11.7,14.8,19,340
+2014,jeep,grand cherokee 4x4 diesel,suv - standard,3.0,6,a8,d,11.2,8.4,9.9,29,267
+2014,jeep,grand cherokee 4x4 ffv,suv - standard,3.6,6,a8,x,13.9,9.8,12.1,23,278
+2014,jeep,grand cherokee 4x4 ffv,suv - standard,3.6,6,a8,e,17.7,13.0,15.6,18,250
+2014,jeep,grand cherokee 4x4 srt (mds),suv - standard,6.4,8,a8,z,18.5,12.6,15.8,18,363
+2014,jeep,patriot,suv - small,2.0,4,a6,x,11.1,8.3,9.8,29,225
+2014,jeep,patriot,suv - small,2.0,4,m5,x,10.2,7.8,9.1,31,209
+2014,jeep,patriot,suv - small,2.4,4,a6,x,11.1,8.3,9.8,29,225
+2014,jeep,patriot,suv - small,2.4,4,m5,x,10.3,8.3,9.4,30,216
+2014,jeep,patriot 4x4,suv - small,2.4,4,a6,x,11.4,8.7,10.2,28,235
+2014,jeep,patriot 4x4,suv - small,2.4,4,m5,x,10.3,8.4,9.4,30,216
+2014,jeep,patriot 4x4 trail rated,suv - small,2.4,4,av,x,11.7,10.3,11.1,25,255
+2014,jeep,wrangler 4x4 (2-door),suv - small,3.6,6,a5,x,14.1,11.1,12.8,22,294
+2014,jeep,wrangler 4x4 (2-door),suv - small,3.6,6,m6,x,14.2,11.0,12.8,22,294
+2014,jeep,wrangler unlimited 4x4 (4-door),suv - small,3.6,6,a5,x,14.8,11.7,13.4,21,308
+2014,jeep,wrangler unlimited 4x4 (4-door),suv - small,3.6,6,m6,x,15.0,11.4,13.4,21,308
+2014,kia,cadenza,full-size,3.3,6,a6,x,12.7,8.8,10.9,26,251
+2014,kia,forte,mid-size,1.8,4,a6,x,9.6,6.6,8.3,34,191
+2014,kia,forte,mid-size,1.8,4,m6,x,9.3,6.4,8.0,35,184
+2014,kia,forte,mid-size,2.0,4,a6,x,9.8,6.6,8.4,34,193
+2014,kia,forte,mid-size,2.0,4,m6,x,9.7,6.8,8.4,34,193
+2014,kia,forte 5,full-size,1.6,4,a6,x,11.1,8.0,9.7,29,223
+2014,kia,forte 5,full-size,1.6,4,m6,x,11.1,8.2,9.8,29,225
+2014,kia,forte 5,full-size,2.0,4,a6,x,9.7,6.8,8.4,34,193
+2014,kia,forte 5,full-size,2.0,4,m6,x,9.8,7.0,8.5,33,196
+2014,kia,forte koup,compact,1.6,4,a6,x,10.6,7.9,9.4,30,216
+2014,kia,forte koup,compact,1.6,4,m6,x,10.8,8.1,9.6,29,221
+2014,kia,forte koup,compact,2.0,4,a6,x,9.6,7.0,8.4,34,193
+2014,kia,forte koup,compact,2.0,4,m6,x,9.8,7.2,8.6,33,198
+2014,kia,optima,mid-size,2.0,4,a6,x,11.7,7.6,9.9,29,228
+2014,kia,optima,mid-size,2.4,4,a6,x,10.2,6.8,8.7,32,200
+2014,kia,rio,compact,1.6,4,a6,x,8.7,6.3,7.6,37,175
+2014,kia,rio,compact,1.6,4,m6,x,8.7,6.4,7.7,37,177
+2014,kia,rio eco,compact,1.6,4,a6,x,8.5,6.4,7.6,37,175
+2014,kia,rondo,station wagon - mid-size,2.0,4,a6,x,10.5,7.5,9.2,31,212
+2014,kia,rondo,station wagon - mid-size,2.0,4,m6,x,10.8,7.4,9.3,30,214
+2014,kia,sedona,minivan,3.5,6,a6,x,13.7,9.9,12.0,24,276
+2014,kia,sorento,suv - small,2.4,4,a6,x,11.8,8.5,10.3,27,237
+2014,kia,sorento,suv - small,3.3,6,a6,x,12.9,9.5,11.4,25,262
+2014,kia,sorento 4wd,suv - small,2.4,4,a6,x,12.3,9.3,11.0,26,253
+2014,kia,sorento 4wd,suv - small,3.3,6,a6,x,13.4,9.9,11.8,24,271
+2014,kia,soul,station wagon - small,1.6,4,a6,x,9.8,7.9,8.9,32,205
+2014,kia,soul,station wagon - small,1.6,4,m6,x,9.9,7.8,9.0,31,207
+2014,kia,soul,station wagon - small,2.0,4,a6,x,10.1,7.8,9.1,31,209
+2014,kia,soul eco dynamics,station wagon - small,2.0,4,a6,x,9.7,7.8,8.8,32,202
+2014,kia,sportage,suv - small,2.4,4,a6,x,11.4,8.3,10.0,28,230
+2014,kia,sportage,suv - small,2.4,4,m6,x,12.9,9.3,11.3,25,260
+2014,kia,sportage awd,suv - small,2.0,4,a6,x,12.7,9.7,11.4,25,262
+2014,kia,sportage awd,suv - small,2.4,4,a6,x,12.0,9.1,10.7,26,246
+2014,lamborghini,aventador coupe,two-seater,6.5,12,a7,z,22.8,12.9,18.3,15,421
+2014,lamborghini,gallardo coupe,two-seater,5.2,10,a6,z,18.0,12.8,15.7,18,361
+2014,lamborghini,gallardo coupe,two-seater,5.2,10,m6,z,20.6,13.5,17.4,16,400
+2014,land rover,lr2,suv - small,2.0,4,as6,z,13.5,9.9,11.9,24,274
+2014,land rover,lr4,suv - standard,3.0,6,as8,z,16.3,12.4,14.5,19,334
+2014,land rover,range rover evoque,suv - small,2.0,4,as9,z,11.3,7.9,9.8,29,225
+2014,land rover,range rover evoque coupe,suv - small,2.0,4,as9,z,11.3,7.9,9.8,29,225
+2014,land rover,range rover lwb v8 5.0 sc,suv - standard,5.0,8,as8,z,18.0,12.2,15.4,18,354
+2014,land rover,range rover lwb v8 5.0 sc ffv,suv - standard,5.0,8,as8,z,17.2,12.5,15.1,19,347
+2014,land rover,range rover lwb v8 5.0 sc ffv,suv - standard,5.0,8,as8,e,25.0,16.9,21.4,13,342
+2014,land rover,range rover sport v6 3.0 sc,suv - standard,3.0,6,as8,z,14.2,10.2,12.4,23,285
+2014,land rover,range rover sport v6 3.0 sc ffv,suv - standard,3.0,6,as8,z,14.2,10.2,12.4,23,285
+2014,land rover,range rover sport v6 3.0 sc ffv,suv - standard,3.0,6,as8,e,19.4,14.9,17.4,16,278
+2014,land rover,range rover sport v8 5.0 sc,suv - standard,5.0,8,as8,z,17.3,12.2,15.0,19,345
+2014,land rover,range rover sport v8 5.0 sc ffv,suv - standard,5.0,8,as8,z,16.6,12.3,14.7,19,338
+2014,land rover,range rover sport v8 5.0 sc ffv,suv - standard,5.0,8,as8,e,24.0,16.6,20.7,14,331
+2014,land rover,range rover v6 3.0 sc,suv - standard,3.0,6,as8,z,14.1,10.1,12.3,23,283
+2014,land rover,range rover v6 3.0 sc ffv,suv - standard,3.0,6,as8,z,14.1,10.1,12.3,23,283
+2014,land rover,range rover v6 3.0 sc ffv,suv - standard,3.0,6,as8,e,19.4,14.8,17.3,16,277
+2014,land rover,range rover v8 5.0 sc,suv - standard,5.0,8,as8,z,18.0,12.2,15.4,18,354
+2014,land rover,range rover v8 5.0 sc ffv,suv - standard,5.0,8,as8,z,17.2,12.5,15.1,19,347
+2014,land rover,range rover v8 5.0 sc ffv,suv - standard,5.0,8,as8,e,25.0,16.9,21.4,13,342
+2014,lexus,ct 200h,compact,1.8,4,av,x,5.5,5.8,5.6,50,129
+2014,lexus,es 300h,mid-size,2.5,4,av6,x,5.8,6.2,6.0,47,138
+2014,lexus,es 350,mid-size,3.5,6,as6,x,11.3,7.6,9.6,29,221
+2014,lexus,gs 350,mid-size,3.5,6,as8,z,12.1,8.3,10.4,27,239
+2014,lexus,gs 350 awd,mid-size,3.5,6,as6,z,12.5,9.1,11.0,26,253
+2014,lexus,gs 450h,mid-size,3.5,6,av8,z,7.7,7.4,7.6,37,175
+2014,lexus,gx 460,suv - standard,4.6,8,as6,z,15.7,11.8,13.9,20,320
+2014,lexus,is 250,compact,2.5,6,as6,z,11.2,7.8,9.7,29,223
+2014,lexus,is 250 awd,compact,2.5,6,as6,z,11.8,8.7,10.4,27,239
+2014,lexus,is 250 c,subcompact,2.5,6,as6,z,11.2,7.8,9.7,29,223
+2014,lexus,is 350,compact,3.5,6,as8,z,12.2,8.7,10.6,27,244
+2014,lexus,is 350 awd,compact,3.5,6,as6,z,12.5,9.1,11.0,26,253
+2014,lexus,is 350 c,subcompact,3.5,6,as6,z,12.1,8.7,10.6,27,244
+2014,lexus,is f,subcompact,5.0,8,as8,z,14.6,10.1,12.6,22,290
+2014,lexus,ls 460,mid-size,4.6,8,as8,z,14.5,9.6,12.3,23,283
+2014,lexus,ls 460 awd,mid-size,4.6,8,as8,z,15.1,10.3,12.9,22,297
+2014,lexus,ls 460 l awd,mid-size,4.6,8,as8,z,15.1,10.3,12.9,22,297
+2014,lexus,ls 600h l,mid-size,5.0,8,av8,z,12.0,10.7,11.4,25,262
+2014,lexus,lx 570,suv - standard,5.7,8,as6,z,18.8,13.6,16.5,17,380
+2014,lexus,rx 350 awd,suv - small,3.5,6,as6,x,13.3,9.8,11.7,24,269
+2014,lexus,rx 350 awd,suv - small,3.5,6,as8,x,12.7,9.1,11.1,25,255
+2014,lexus,rx 450h awd,suv - small,3.5,6,av6,z,7.9,8.6,8.2,34,189
+2014,lincoln,mks awd,full-size,3.5,6,as6,x,13.7,9.4,11.8,24,271
+2014,lincoln,mks awd,full-size,3.7,6,as6,x,13.1,9.0,11.3,25,260
+2014,lincoln,mkt awd,suv - standard,3.5,6,as6,x,14.8,10.4,12.8,22,294
+2014,lincoln,mkt livery,special purpose vehicle,2.0,4,as6,x,11.5,8.5,10.2,28,235
+2014,lincoln,mkt livery awd,special purpose vehicle,3.7,6,a6,x,14.0,9.9,12.2,23,281
+2014,lincoln,mkx awd,suv - small,3.7,6,as6,x,13.7,10.4,12.2,23,281
+2014,lincoln,mkz,mid-size,2.0,4,as6,x,10.5,7.1,9.0,31,207
+2014,lincoln,mkz awd,mid-size,3.7,6,as6,x,13.1,9.3,11.4,25,262
+2014,lincoln,mkz hybrid,mid-size,2.0,4,av,x,6.2,6.4,6.3,45,145
+2014,lincoln,navigator 4x4 ffv,suv - standard,5.4,8,a6,x,18.2,13.3,16.0,18,368
+2014,lincoln,navigator 4x4 ffv,suv - standard,5.4,8,a6,e,24.5,18.0,21.6,13,346
+2014,maserati,ghibli,mid-size,3.0,6,as8,z,15.2,9.6,12.7,22,292
+2014,maserati,ghibli awd,mid-size,3.0,6,as8,z,15.2,9.6,12.7,22,292
+2014,maserati,granturismo,subcompact,4.7,8,as6,z,18.2,11.4,15.1,19,347
+2014,maserati,granturismo convertible,subcompact,4.7,8,as6,z,18.2,11.7,15.3,18,352
+2014,maserati,quattroporte gts,full-size,3.8,8,as8,z,17.6,10.7,14.5,19,334
+2014,maserati,quattroporte sq4,full-size,3.0,6,as8,z,15.9,9.7,13.1,22,301
+2014,mazda,cx-5,suv - small,2.0,4,as6,x,8.9,7.3,8.2,34,189
+2014,mazda,cx-5,suv - small,2.0,4,m6,x,9.0,6.8,8.0,35,184
+2014,mazda,cx-5,suv - small,2.5,4,as6,x,9.6,7.4,8.6,33,198
+2014,mazda,cx-5 4wd,suv - small,2.0,4,as6,x,9.3,7.6,8.5,33,196
+2014,mazda,cx-5 4wd,suv - small,2.5,4,as6,x,9.8,7.9,8.9,32,205
+2014,mazda,cx-9,suv - small,3.7,6,as6,x,14.2,10.0,12.3,23,283
+2014,mazda,cx-9 4wd,suv - small,3.7,6,as6,x,14.3,10.6,12.6,22,290
+2014,mazda,mazda2,compact,1.5,4,a4,x,8.4,6.9,7.7,37,177
+2014,mazda,mazda2,compact,1.5,4,m5,x,8.0,6.7,7.4,38,170
+2014,mazda,mazda3 4-door,compact,2.0,4,as6,x,7.9,5.7,6.9,41,159
+2014,mazda,mazda3 4-door,compact,2.0,4,m6,x,8.0,5.8,7.0,40,161
+2014,mazda,mazda3 4-door,compact,2.5,4,as6,x,8.4,6.1,7.4,38,170
+2014,mazda,mazda3 4-door (i-eloop),compact,2.5,4,as6,x,8.3,6.1,7.3,39,168
+2014,mazda,mazda3 4-door (sil),compact,2.0,4,m6,x,8.0,5.8,7.0,40,161
+2014,mazda,mazda3 5-door,mid-size,2.0,4,as6,x,8.0,5.9,7.1,40,163
+2014,mazda,mazda3 5-door,mid-size,2.0,4,m6,x,8.2,5.9,7.2,39,166
+2014,mazda,mazda3 5-door,mid-size,2.5,4,as6,x,8.7,6.5,7.7,37,177
+2014,mazda,mazda3 5-door (i-eloop),mid-size,2.5,4,as6,x,8.2,6.1,7.3,39,168
+2014,mazda,mazda3 5-door (sil),mid-size,2.0,4,m6,x,8.2,5.9,7.2,39,166
+2014,mazda,mazda5,minivan,2.5,4,as5,x,10.8,8.4,9.7,29,223
+2014,mazda,mazda5,minivan,2.5,4,m6,x,11.1,8.3,9.8,29,225
+2014,mazda,mazda6,mid-size,2.5,4,as6,x,8.8,6.2,7.6,37,175
+2014,mazda,mazda6,mid-size,2.5,4,m6,x,9.4,6.4,8.1,35,186
+2014,mazda,mazda6 (i-eloop),mid-size,2.5,4,as6,x,8.4,5.9,7.3,39,168
+2014,mazda,mx-5,two-seater,2.0,4,as6,z,11.5,8.5,10.2,28,235
+2014,mazda,mx-5,two-seater,2.0,4,m5,z,10.5,8.5,9.6,29,221
+2014,mazda,mx-5,two-seater,2.0,4,m6,z,11.1,8.4,9.9,29,228
+2014,mercedes-benz,b 250,station wagon - small,2.0,4,as7,z,9.2,6.6,8.0,35,184
+2014,mercedes-benz,c 250,compact,1.8,4,as7,z,10.9,7.5,9.4,30,216
+2014,mercedes-benz,c 250 coupe,subcompact,1.8,4,as7,z,11.0,7.4,9.4,30,216
+2014,mercedes-benz,c 300 4matic ffv,compact,3.5,6,as7,z,12.2,8.5,10.5,27,242
+2014,mercedes-benz,c 300 4matic ffv,compact,3.5,6,as7,e,16.4,11.1,14.0,20,224
+2014,mercedes-benz,c 350,compact,3.5,6,as7,z,12.0,8.6,10.5,27,242
+2014,mercedes-benz,c 350 4matic,compact,3.5,6,as7,z,11.9,8.6,10.4,27,239
+2014,mercedes-benz,c 350 4matic coupe,subcompact,3.5,6,as7,z,12.1,8.7,10.6,27,244
+2014,mercedes-benz,c 350 coupe,subcompact,3.5,6,as7,z,12.1,8.6,10.5,27,242
+2014,mercedes-benz,c 63 amg,compact,6.2,8,as7,z,17.7,11.9,15.1,19,347
+2014,mercedes-benz,c 63 amg coupe,subcompact,6.2,8,as7,z,17.9,12.2,15.3,18,352
+2014,mercedes-benz,cl 550 4matic,compact,4.7,8,as7,z,15.4,10.4,13.2,21,304
+2014,mercedes-benz,cl 63 amg,compact,5.5,8,as7,z,15.4,11.0,13.4,21,308
+2014,mercedes-benz,cla 250,compact,2.0,4,as7,z,9.1,6.2,7.8,36,179
+2014,mercedes-benz,cla 45 amg 4matic,compact,2.0,4,as7,z,10.3,7.8,9.2,31,212
+2014,mercedes-benz,cls 550 4matic,compact,4.7,8,as7,z,13.3,9.4,11.5,25,264
+2014,mercedes-benz,cls 63 amg 4matic,compact,5.5,8,as7,z,15.1,10.7,13.1,22,301
+2014,mercedes-benz,cls 63 amg s 4matic,compact,5.5,8,as7,z,15.1,10.7,13.1,22,301
+2014,mercedes-benz,e 250 bluetec 4matic,mid-size,2.1,4,as7,d,8.5,5.7,7.2,39,194
+2014,mercedes-benz,e 300 4matic,mid-size,3.5,6,as7,z,11.8,8.2,10.2,28,235
+2014,mercedes-benz,e 350 4matic,mid-size,3.5,6,as7,z,11.6,8.1,10.0,28,230
+2014,mercedes-benz,e 350 4matic coupe,subcompact,3.5,6,as7,z,11.9,8.5,10.4,27,239
+2014,mercedes-benz,e 350 4matic wagon,station wagon - mid-size,3.5,6,as7,z,12.1,8.6,10.5,27,242
+2014,mercedes-benz,e 350 cabriolet,subcompact,3.5,6,as7,z,12.0,8.5,10.4,27,239
+2014,mercedes-benz,e 350 coupe,subcompact,3.5,6,as7,z,11.9,8.2,10.2,28,235
+2014,mercedes-benz,e 400 hybrid,mid-size,3.5,6,as7,z,9.6,7.9,8.8,32,202
+2014,mercedes-benz,e 550 4matic,mid-size,4.7,8,as7,z,13.6,9.1,11.6,24,267
+2014,mercedes-benz,e 550 cabriolet,subcompact,4.7,8,as7,z,13.7,9.3,11.7,24,269
+2014,mercedes-benz,e 550 coupe,subcompact,4.7,8,as7,z,13.4,8.9,11.4,25,262
+2014,mercedes-benz,e 63 amg 4matic,mid-size,5.5,8,as7,z,15.0,10.3,12.9,22,297
+2014,mercedes-benz,e 63 amg 4matic wagon,station wagon - mid-size,5.5,8,as7,z,15.5,11.0,13.5,21,310
+2014,mercedes-benz,e 63 amg s 4matic,mid-size,5.5,8,as7,z,15.0,10.3,12.9,22,297
+2014,mercedes-benz,e 63 amg s 4matic wagon,station wagon - mid-size,5.5,8,as7,z,15.5,11.0,13.5,21,310
+2014,mercedes-benz,g 550,suv - standard,5.5,8,as7,z,20.0,15.9,18.2,16,419
+2014,mercedes-benz,g 63 amg,suv - standard,5.5,8,as7,z,19.4,15.7,17.7,16,407
+2014,mercedes-benz,gl 350 bluetec 4matic,suv - standard,3.0,6,as7,d,13.4,10.2,12.0,24,324
+2014,mercedes-benz,gl 450 4matic,suv - standard,4.7,8,as7,z,17.1,12.8,15.2,19,350
+2014,mercedes-benz,gl 550 4matic,suv - standard,4.7,8,as7,z,17.6,13.1,15.6,18,359
+2014,mercedes-benz,gl 63 amg,suv - standard,5.5,8,as7,z,17.7,13.4,15.8,18,363
+2014,mercedes-benz,glk 250 bluetec 4matic,suv - small,2.1,4,as7,d,9.6,7.1,8.5,33,230
+2014,mercedes-benz,glk 350 4matic,suv - small,3.5,6,as7,z,12.6,9.6,11.3,25,260
+2014,mercedes-benz,ml 350 4matic ffv,suv - standard,3.5,6,as7,z,13.4,10.5,12.1,23,278
+2014,mercedes-benz,ml 350 4matic ffv,suv - standard,3.5,6,as7,e,17.8,13.8,16.0,18,256
+2014,mercedes-benz,ml 350 bluetec 4matic,suv - standard,3.0,6,as7,d,11.8,8.5,10.3,27,278
+2014,mercedes-benz,ml 550 4matic,suv - standard,4.7,8,as7,z,16.2,11.8,14.2,20,327
+2014,mercedes-benz,ml 63 amg 4matic,suv - standard,5.5,8,as7,z,17.2,13.5,15.5,18,356
+2014,mercedes-benz,s 550 4matic lwb,full-size,4.7,8,as7,z,14.3,9.5,12.1,23,278
+2014,mercedes-benz,s 550 4matic swb,full-size,4.7,8,as7,z,14.2,9.4,12.0,24,276
+2014,mercedes-benz,s 63 amg 4matic,full-size,5.5,8,as7,z,15.6,10.3,13.2,21,304
+2014,mercedes-benz,sl 550,two-seater,4.7,8,as7,z,13.4,9.6,11.7,24,269
+2014,mercedes-benz,sl 63 amg,two-seater,5.5,8,as7,z,14.8,10.2,12.7,22,292
+2014,mercedes-benz,sl 65 amg,two-seater,6.0,8,as7,z,16.7,11.2,14.2,20,327
+2014,mercedes-benz,slk 250,two-seater,1.8,4,as7,z,10.3,7.2,8.9,32,205
+2014,mercedes-benz,slk 250,two-seater,1.8,4,m6,z,10.4,7.3,9.0,31,207
+2014,mercedes-benz,slk 350,two-seater,3.5,6,as7,z,11.1,8.1,9.8,29,225
+2014,mercedes-benz,slk 55 amg,two-seater,5.5,8,as7,z,12.3,8.7,10.7,26,246
+2014,mercedes-benz,sls amg black series coupe,two-seater,6.2,8,as7,z,18.7,13.9,16.5,17,380
+2014,mercedes-benz,sls amg gt coupe,two-seater,6.2,8,as7,z,18.2,12.6,15.7,18,361
+2014,mercedes-benz,sls amg roadster,two-seater,6.2,8,as7,z,18.2,12.6,15.7,18,361
+2014,mini,cooper clubman,subcompact,1.6,4,a6,z,8.7,6.6,7.8,36,179
+2014,mini,cooper clubman,subcompact,1.6,4,m6,z,8.6,6.8,7.8,36,179
+2014,mini,cooper convertible,minicompact,1.6,4,a6,z,8.7,6.6,7.8,36,179
+2014,mini,cooper convertible,minicompact,1.6,4,m6,z,8.6,6.8,7.8,36,179
+2014,mini,cooper countryman,compact,1.6,4,a6,z,9.4,7.9,8.7,32,200
+2014,mini,cooper countryman,compact,1.6,4,m6,z,8.6,6.8,7.8,36,179
+2014,mini,cooper coupe,two-seater,1.6,4,a6,z,8.5,6.6,7.6,37,175
+2014,mini,cooper coupe,two-seater,1.6,4,m6,z,8.0,6.4,7.3,39,168
+2014,mini,cooper paceman,compact,1.6,4,a6,z,9.4,7.9,8.7,32,200
+2014,mini,cooper paceman,compact,1.6,4,m6,z,8.6,6.8,7.8,36,179
+2014,mini,cooper roadster,two-seater,1.6,4,a6,z,8.7,6.6,7.8,36,179
+2014,mini,cooper roadster,two-seater,1.6,4,m6,z,8.6,6.8,7.8,36,179
+2014,mini,cooper s clubman,subcompact,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,cooper s clubman,subcompact,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mini,cooper s convertible,minicompact,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,cooper s convertible,minicompact,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mini,cooper s countryman all4,compact,1.6,4,a6,z,10.0,7.8,9.0,31,207
+2014,mini,cooper s countryman all4,compact,1.6,4,m6,z,9.3,7.5,8.5,33,196
+2014,mini,cooper s coupe,two-seater,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,cooper s coupe,two-seater,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mini,cooper s paceman all4,compact,1.6,4,a6,z,10.0,7.8,9.0,31,207
+2014,mini,cooper s paceman all4,compact,1.6,4,m6,z,9.3,7.5,8.5,33,196
+2014,mini,cooper s roadster,two-seater,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,cooper s roadster,two-seater,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mini,john cooper works clubman,subcompact,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,john cooper works clubman,subcompact,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mini,john cooper works convertible,minicompact,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,john cooper works convertible,minicompact,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mini,john cooper works countryman all4,compact,1.6,4,a6,z,10.0,7.8,9.0,31,207
+2014,mini,john cooper works countryman all4,compact,1.6,4,m6,z,9.3,7.5,8.5,33,196
+2014,mini,john cooper works coupe,two-seater,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,john cooper works coupe,two-seater,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mini,john cooper works paceman all4,compact,1.6,4,a6,z,10.0,7.8,9.0,31,207
+2014,mini,john cooper works paceman all4,compact,1.6,4,m6,z,9.3,7.5,8.5,33,196
+2014,mini,john cooper works roadster,two-seater,1.6,4,a6,z,9.3,7.0,8.3,34,191
+2014,mini,john cooper works roadster,two-seater,1.6,4,m6,z,9.1,6.7,8.0,35,184
+2014,mitsubishi,lancer,compact,2.0,4,av6,x,9.2,7.0,8.2,34,189
+2014,mitsubishi,lancer,compact,2.0,4,m5,x,9.6,6.8,8.3,34,191
+2014,mitsubishi,lancer awd,compact,2.4,4,av6,x,10.5,8.2,9.5,30,218
+2014,mitsubishi,lancer evolution,compact,2.0,4,am6,z,14.2,10.5,12.5,23,288
+2014,mitsubishi,lancer evolution,compact,2.0,4,m5,z,14.0,10.3,12.3,23,283
+2014,mitsubishi,lancer ralliart,compact,2.0,4,am6,z,13.4,9.4,11.6,24,267
+2014,mitsubishi,lancer sportback,station wagon - small,2.0,4,av6,x,9.6,7.3,8.6,33,198
+2014,mitsubishi,lancer sportback,station wagon - small,2.0,4,m5,x,9.8,7.1,8.6,33,198
+2014,mitsubishi,mirage,compact,1.2,3,av,x,6.4,5.4,6.0,47,138
+2014,mitsubishi,mirage,compact,1.2,3,m5,x,7.0,5.6,6.4,44,147
+2014,mitsubishi,outlander,suv - small,2.4,4,av6,x,9.5,7.5,8.6,33,198
+2014,mitsubishi,outlander 4wd,suv - small,2.4,4,av6,x,9.9,8.1,9.1,31,209
+2014,mitsubishi,outlander 4wd,suv - small,3.0,6,as6,z,11.5,8.5,10.2,28,235
+2014,mitsubishi,rvr,suv - small,2.0,4,av6,x,9.6,7.6,8.7,32,200
+2014,mitsubishi,rvr,suv - small,2.0,4,m5,x,9.9,7.5,8.8,32,202
+2014,mitsubishi,rvr 4wd,suv - small,2.0,4,av6,x,9.8,8.0,9.0,31,207
+2014,nissan,370z,two-seater,3.7,6,as7,z,12.6,9.1,11.0,26,253
+2014,nissan,370z,two-seater,3.7,6,m6,z,13.3,9.3,11.5,25,264
+2014,nissan,370z roadster,two-seater,3.7,6,as7,z,13.0,9.5,11.4,25,262
+2014,nissan,370z roadster,two-seater,3.7,6,m6,z,13.5,9.6,11.7,24,269
+2014,nissan,altima,mid-size,2.5,4,av,x,8.7,6.2,7.6,37,175
+2014,nissan,altima,mid-size,3.5,6,av,x,10.8,7.4,9.3,30,214
+2014,nissan,armada 4wd,suv - standard,5.6,8,a5,x,19.1,13.4,16.5,17,380
+2014,nissan,frontier,pickup truck - small,2.5,4,a5,x,13.7,10.6,12.3,23,283
+2014,nissan,frontier,pickup truck - small,2.5,4,m5,x,12.2,10.2,11.3,25,260
+2014,nissan,frontier,pickup truck - small,4.0,6,a5,x,14.7,10.2,12.7,22,292
+2014,nissan,frontier 4wd,pickup truck - small,4.0,6,a5,x,15.7,11.2,13.7,21,315
+2014,nissan,frontier 4wd,pickup truck - small,4.0,6,m6,x,14.8,11.0,13.1,22,301
+2014,nissan,gt-r,subcompact,3.8,6,am6,z,14.5,10.9,12.9,22,297
+2014,nissan,juke,station wagon - small,1.6,4,av,z,8.7,7.3,8.1,35,186
+2014,nissan,juke,station wagon - small,1.6,4,m6,z,9.5,7.6,8.6,33,198
+2014,nissan,juke awd,station wagon - small,1.6,4,av,z,9.3,7.9,8.7,32,200
+2014,nissan,maxima,mid-size,3.5,6,av,z,12.3,9.1,10.9,26,251
+2014,nissan,murano awd,suv - small,3.5,6,av,x,13.2,10.1,11.8,24,271
+2014,nissan,nv200 cargo van,special purpose vehicle,2.0,4,av,x,10.0,8.5,9.3,30,214
+2014,nissan,pathfinder,suv - small,3.5,6,av,x,12.0,8.9,10.6,27,244
+2014,nissan,pathfinder 4wd,suv - small,3.5,6,av,x,12.3,9.3,11.0,26,253
+2014,nissan,pathfinder hybrid 4wd,suv - standard,2.5,4,av,x,9.1,8.5,8.8,32,202
+2014,nissan,quest,minivan,3.5,6,av,x,12.5,9.5,11.1,25,255
+2014,nissan,rogue,suv - small,2.5,4,av,x,9.2,7.2,8.3,34,191
+2014,nissan,rogue awd,suv - small,2.5,4,av,x,9.5,7.4,8.6,33,198
+2014,nissan,sentra,mid-size,1.8,4,av,x,7.8,6.0,7.0,40,161
+2014,nissan,sentra,mid-size,1.8,4,m6,x,8.7,6.6,7.8,36,179
+2014,nissan,titan,pickup truck - standard,5.6,8,a5,x,17.9,12.8,15.6,18,359
+2014,nissan,titan 4wd,pickup truck - standard,5.6,8,a5,x,19.7,14.3,17.3,16,398
+2014,nissan,versa,compact,1.6,4,av,x,7.2,5.8,6.6,43,152
+2014,nissan,versa,compact,1.6,4,m5,x,8.6,6.5,7.7,37,177
+2014,nissan,xterra 4wd,suv - small,4.0,6,a5,x,16.1,11.9,14.2,20,327
+2014,nissan,xterra 4wd,suv - small,4.0,6,m6,x,15.2,11.9,13.7,21,315
+2014,porsche,911 carrera,minicompact,3.4,6,am7,z,11.6,8.3,10.1,28,232
+2014,porsche,911 carrera,minicompact,3.4,6,m7,z,12.5,8.6,10.7,26,246
+2014,porsche,911 carrera 4,minicompact,3.4,6,am7,z,11.8,8.5,10.3,27,237
+2014,porsche,911 carrera 4,minicompact,3.4,6,m7,z,12.4,8.6,10.7,26,246
+2014,porsche,911 carrera 4 cabriolet,minicompact,3.4,6,am7,z,12.0,8.7,10.5,27,242
+2014,porsche,911 carrera 4 cabriolet,minicompact,3.4,6,m7,z,12.6,9.0,11.0,26,253
+2014,porsche,911 carrera 4s,minicompact,3.8,6,am7,z,12.3,8.9,10.8,26,248
+2014,porsche,911 carrera 4s,minicompact,3.8,6,m7,z,12.8,8.9,11.0,26,253
+2014,porsche,911 carrera 4s cabriolet,minicompact,3.8,6,am7,z,12.7,9.0,11.0,26,253
+2014,porsche,911 carrera 4s cabriolet,minicompact,3.8,6,m7,z,12.9,9.1,11.2,25,258
+2014,porsche,911 carrera cabriolet,minicompact,3.4,6,am7,z,11.6,8.3,10.1,28,232
+2014,porsche,911 carrera cabriolet,minicompact,3.4,6,m7,z,12.4,8.6,10.7,26,246
+2014,porsche,911 carrera s,minicompact,3.8,6,am7,z,12.1,8.7,10.6,27,244
+2014,porsche,911 carrera s,minicompact,3.8,6,m7,z,12.6,8.6,10.8,26,248
+2014,porsche,911 carrera s cabriolet,minicompact,3.8,6,am7,z,12.4,8.7,10.7,26,246
+2014,porsche,911 carrera s cabriolet,minicompact,3.8,6,m7,z,12.6,8.8,10.9,26,251
+2014,porsche,911 gt3,two-seater,3.8,6,am7,z,16.0,11.5,14.0,20,322
+2014,porsche,911 turbo,minicompact,3.8,6,am7,z,13.7,9.6,11.9,24,274
+2014,porsche,911 turbo cabriolet,minicompact,3.8,6,am7,z,13.7,9.6,11.9,24,274
+2014,porsche,911 turbo s,minicompact,3.8,6,am7,z,13.7,9.6,11.9,24,274
+2014,porsche,911 turbo s cabriolet,minicompact,3.8,6,am7,z,13.7,9.6,11.9,24,274
+2014,porsche,boxster,two-seater,2.7,6,am7,z,10.7,7.4,9.2,31,212
+2014,porsche,boxster,two-seater,2.7,6,m6,z,11.5,7.9,9.9,29,228
+2014,porsche,boxster s,two-seater,3.4,6,am7,z,11.3,7.9,9.8,29,225
+2014,porsche,boxster s,two-seater,3.4,6,m6,z,11.9,8.6,10.4,27,239
+2014,porsche,cayenne,suv - standard,3.6,6,a8,z,13.6,10.1,12.0,24,276
+2014,porsche,cayenne,suv - standard,3.6,6,m6,z,15.8,10.9,13.6,21,313
+2014,porsche,cayenne diesel,suv - standard,3.0,6,a8,d,12.2,8.1,10.4,27,281
+2014,porsche,cayenne gts,suv - standard,4.8,8,a8,z,15.9,11.4,13.9,20,320
+2014,porsche,cayenne s,suv - standard,4.8,8,a8,z,15.0,10.6,13.0,22,299
+2014,porsche,cayenne s hybrid,suv - standard,3.0,6,a8,z,11.8,9.9,10.9,26,251
+2014,porsche,cayenne turbo,suv - standard,4.8,8,a8,z,15.9,10.9,13.7,21,315
+2014,porsche,cayman,two-seater,2.7,6,am7,z,10.7,7.4,9.2,31,212
+2014,porsche,cayman,two-seater,2.7,6,m6,z,11.5,7.9,9.9,29,228
+2014,porsche,cayman s,two-seater,3.4,6,am7,z,11.3,7.9,9.8,29,225
+2014,porsche,cayman s,two-seater,3.4,6,m6,z,11.9,8.6,10.4,27,239
+2014,porsche,panamera,full-size,3.6,6,am7,z,12.9,8.4,10.9,26,251
+2014,porsche,panamera 4,full-size,3.6,6,am7,z,13.1,8.7,11.1,25,255
+2014,porsche,panamera 4s,full-size,3.0,6,am7,z,13.4,8.8,11.3,25,260
+2014,porsche,panamera 4s executive,full-size,3.0,6,am7,z,13.7,8.9,11.5,25,264
+2014,porsche,panamera gts,full-size,4.8,8,am7,z,15.1,9.7,12.7,22,292
+2014,porsche,panamera s,full-size,3.0,6,am7,z,13.4,8.8,11.3,25,260
+2014,porsche,panamera turbo,full-size,4.8,8,am7,z,15.3,9.7,12.8,22,294
+2014,porsche,panamera turbo executive,full-size,4.8,8,am7,z,15.4,9.8,12.9,22,297
+2014,ram,1500 (mds),pickup truck - standard,5.7,8,a6,x,17.1,12.0,14.8,19,340
+2014,ram,1500 (mds),pickup truck - standard,5.7,8,a8,x,15.8,10.9,13.6,21,313
+2014,ram,1500 4x4 (mds),pickup truck - standard,5.7,8,a6,x,17.6,12.7,15.4,18,354
+2014,ram,1500 4x4 (mds),pickup truck - standard,5.7,8,a8,x,16.3,11.5,14.1,20,324
+2014,ram,1500 4x4 diesel,pickup truck - standard,3.0,6,a8,d,12.1,8.8,10.6,27,286
+2014,ram,1500 4x4 ffv,pickup truck - standard,3.6,6,a8,x,14.6,10.1,12.6,22,290
+2014,ram,1500 4x4 ffv,pickup truck - standard,3.6,6,a8,e,20.5,14.5,17.8,16,285
+2014,ram,1500 diesel,pickup truck - standard,3.0,6,a8,d,11.6,8.4,10.2,28,275
+2014,ram,1500 ffv,pickup truck - standard,3.6,6,a8,x,13.9,9.5,11.9,24,274
+2014,ram,1500 ffv,pickup truck - standard,3.6,6,a8,e,19.4,13.6,16.8,17,269
+2014,ram,1500 hfe,pickup truck - standard,3.6,6,a8,x,12.9,9.3,11.3,25,260
+2014,ram,cargo van ffv,minivan,3.6,6,a6,x,13.3,9.1,11.4,25,262
+2014,ram,cargo van ffv,minivan,3.6,6,a6,e,18.6,12.7,15.9,18,254
+2014,rolls-royce,ghost,full-size,6.6,12,a8,z,19.1,12.3,16.0,18,368
+2014,rolls-royce,ghost ewb,full-size,6.6,12,a8,z,19.1,12.3,16.0,18,368
+2014,rolls-royce,phantom,full-size,6.7,12,a8,z,20.7,12.8,17.1,17,393
+2014,rolls-royce,phantom coupe,compact,6.7,12,a8,z,20.7,12.8,17.1,17,393
+2014,rolls-royce,phantom drophead coupe,compact,6.7,12,a8,z,20.7,12.7,17.1,17,393
+2014,rolls-royce,phantom ewb,full-size,6.7,12,a8,z,20.7,12.7,17.1,17,393
+2014,rolls-royce,wraith,mid-size,6.6,12,a8,z,18.7,11.8,15.6,18,359
+2014,scion,fr-s,minicompact,2.0,4,as6,z,9.6,7.0,8.4,34,193
+2014,scion,fr-s,minicompact,2.0,4,m6,z,10.9,7.8,9.5,30,218
+2014,scion,iq,minicompact,1.3,4,av,x,6.6,5.7,6.2,46,143
+2014,scion,tc,compact,2.5,4,as6,x,10.2,7.5,9.0,31,207
+2014,scion,tc,compact,2.5,4,m6,x,10.2,7.6,9.0,31,207
+2014,scion,xb,station wagon - small,2.4,4,as4,x,10.9,8.6,9.9,29,228
+2014,scion,xb,station wagon - small,2.4,4,m5,x,10.9,8.6,9.9,29,228
+2014,scion,xd,subcompact,1.8,4,a4,x,8.8,7.1,8.0,35,184
+2014,scion,xd,subcompact,1.8,4,m5,x,8.6,7.1,7.9,36,182
+2014,smart,fortwo cabriolet,two-seater,1.0,3,am5,z,6.9,5.7,6.4,44,147
+2014,smart,fortwo coupe,two-seater,1.0,3,am5,z,6.9,5.7,6.4,44,147
+2014,srt,viper coupe,two-seater,8.4,10,m6,z,20.0,13.0,16.9,17,389
+2014,srt,viper gts coupe,two-seater,8.4,10,m6,z,20.0,13.0,16.9,17,389
+2014,subaru,brz,minicompact,2.0,4,as6,z,9.6,7.1,8.5,33,196
+2014,subaru,brz,minicompact,2.0,4,m6,z,11.0,7.9,9.6,29,221
+2014,subaru,forester awd,suv - small,2.0,4,av,z,10.2,8.6,9.5,30,218
+2014,subaru,forester awd,suv - small,2.5,4,av,x,9.6,7.4,8.6,33,198
+2014,subaru,forester awd,suv - small,2.5,4,m6,x,10.9,8.3,9.7,29,223
+2014,subaru,impreza awd,compact,2.0,4,av,x,8.7,6.6,7.8,36,179
+2014,subaru,impreza awd,compact,2.0,4,m5,x,9.6,7.1,8.5,33,196
+2014,subaru,impreza awd,compact,2.5,4,m5,z,12.6,9.5,11.2,25,258
+2014,subaru,impreza awd,compact,2.5,4,m6,z,14.2,10.4,12.5,23,288
+2014,subaru,impreza wagon awd,station wagon - small,2.0,4,av,x,8.7,6.6,7.8,36,179
+2014,subaru,impreza wagon awd,station wagon - small,2.0,4,m5,x,9.6,7.1,8.5,33,196
+2014,subaru,impreza wagon awd,station wagon - small,2.5,4,m5,z,12.6,9.5,11.2,25,258
+2014,subaru,impreza wagon awd,station wagon - small,2.5,4,m6,z,14.2,10.4,12.5,23,288
+2014,subaru,legacy awd,mid-size,2.5,4,av,x,9.7,7.3,8.6,33,198
+2014,subaru,legacy awd,mid-size,2.5,4,m6,x,11.3,8.2,9.9,29,228
+2014,subaru,legacy awd,mid-size,3.6,6,as5,x,13.3,9.5,11.6,24,267
+2014,subaru,outback awd,suv - small,2.5,4,av,x,9.9,7.8,9.0,31,207
+2014,subaru,outback awd,suv - small,2.5,4,m6,x,10.8,8.5,9.8,29,225
+2014,subaru,outback awd,suv - small,3.6,6,as5,x,13.4,9.7,11.7,24,269
+2014,subaru,tribeca awd,suv - small,3.6,6,as5,x,14.7,11.1,13.1,22,301
+2014,subaru,xv crosstrek awd,suv - small,2.0,4,av,x,9.5,7.2,8.5,33,196
+2014,subaru,xv crosstrek awd,suv - small,2.0,4,m5,x,10.2,8.0,9.2,31,212
+2014,subaru,xv crosstrek hybrid awd,suv - small,2.0,4,av,x,8.1,7.2,7.7,37,177
+2014,toyota,4runner (part-time 4wd),suv - standard,4.0,6,as5,x,14.3,11.1,12.9,22,297
+2014,toyota,4runner 4wd,suv - standard,4.0,6,as5,x,14.3,11.1,12.9,22,297
+2014,toyota,avalon,mid-size,3.5,6,as6,x,11.3,7.6,9.6,29,221
+2014,toyota,camry,mid-size,2.5,4,as6,x,9.5,6.6,8.2,34,189
+2014,toyota,camry,mid-size,3.5,6,as6,x,11.1,7.8,9.6,29,221
+2014,toyota,camry hybrid le,mid-size,2.5,4,av,x,5.5,5.9,5.7,50,131
+2014,toyota,camry hybrid xle/se,mid-size,2.5,4,av,x,5.8,6.2,6.0,47,138
+2014,toyota,corolla,mid-size,1.8,4,a4,x,8.6,6.5,7.7,37,177
+2014,toyota,corolla,mid-size,1.8,4,av7,x,8.1,6.3,7.3,39,168
+2014,toyota,corolla,mid-size,1.8,4,av,x,8.0,5.9,7.1,40,163
+2014,toyota,corolla,mid-size,1.8,4,m6,x,8.3,6.3,7.4,38,170
+2014,toyota,corolla le eco (1-mode),mid-size,1.8,4,av,x,7.7,5.6,6.8,42,156
+2014,toyota,corolla le eco (2-mode),mid-size,1.8,4,av,x,7.8,5.9,6.9,41,159
+2014,toyota,corolla matrix,station wagon - small,1.8,4,a4,x,9.4,7.5,8.5,33,196
+2014,toyota,corolla matrix,station wagon - small,1.8,4,m5,x,8.9,7.3,8.2,34,189
+2014,toyota,fj cruiser 4wd,suv - small,4.0,6,a5,x,14.3,11.2,12.9,22,297
+2014,toyota,fj cruiser 4wd,suv - small,4.0,6,m6,x,15.4,12.1,13.9,20,320
+2014,toyota,highlander,suv - small,2.7,4,as6,x,11.7,8.6,10.3,27,237
+2014,toyota,highlander,suv - small,3.5,6,as6,x,12.6,9.4,11.2,25,258
+2014,toyota,highlander awd,suv - standard,3.5,6,as6,x,13.0,9.7,11.5,25,264
+2014,toyota,highlander hybrid awd,suv - standard,3.5,6,av6,x,8.0,8.6,8.3,34,191
+2014,toyota,highlander hybrid awd le,suv - standard,3.5,6,av6,x,7.9,8.6,8.2,34,189
+2014,toyota,prius,mid-size,1.8,4,av,x,4.7,4.9,4.8,59,110
+2014,toyota,prius c,compact,1.5,4,av,x,4.6,4.9,4.7,60,108
+2014,toyota,prius v,station wagon - mid-size,1.8,4,av,x,5.3,5.8,5.5,51,126
+2014,toyota,rav4,suv - small,2.5,4,as6,x,10.0,7.6,8.9,32,205
+2014,toyota,rav4 awd,suv - small,2.5,4,as6,x,10.4,8.1,9.4,30,216
+2014,toyota,rav4 limited awd,suv - small,2.5,4,as6,x,10.6,8.2,9.5,30,218
+2014,toyota,sequoia 4wd,suv - standard,5.7,8,as6,x,19.0,13.9,16.7,17,384
+2014,toyota,sienna,minivan,3.5,6,as6,x,12.9,9.4,11.3,25,260
+2014,toyota,sienna awd,minivan,3.5,6,as6,x,14.2,10.3,12.4,23,285
+2014,toyota,tacoma,pickup truck - small,2.7,4,a4,x,12.2,9.3,10.9,26,251
+2014,toyota,tacoma,pickup truck - small,2.7,4,m5,x,11.3,8.9,10.2,28,235
+2014,toyota,tacoma,pickup truck - small,4.0,6,m6,x,14.5,11.3,13.1,22,301
+2014,toyota,tacoma 4wd,pickup truck - small,2.7,4,a4,x,13.1,10.5,11.9,24,274
+2014,toyota,tacoma 4wd,pickup truck - small,2.7,4,m5,x,12.8,10.6,11.8,24,271
+2014,toyota,tacoma 4wd,pickup truck - small,4.0,6,a5,x,14.7,11.5,13.3,21,306
+2014,toyota,tacoma 4wd,pickup truck - small,4.0,6,m6,x,15.3,12.3,14.0,20,322
+2014,toyota,tundra,pickup truck - standard,4.0,6,as5,x,14.8,11.8,13.5,21,310
+2014,toyota,tundra,pickup truck - standard,4.6,8,as6,x,15.9,12.3,14.3,20,329
+2014,toyota,tundra,pickup truck - standard,5.7,8,as6,x,17.6,12.9,15.5,18,356
+2014,toyota,tundra 4wd,pickup truck - standard,4.6,8,as6,x,16.9,12.8,15.1,19,347
+2014,toyota,tundra 4wd,pickup truck - standard,5.7,8,as6,x,18.1,13.9,16.2,17,373
+2014,toyota,venza,suv - small,2.7,4,as6,x,11.4,8.2,10.0,28,230
+2014,toyota,venza,suv - small,3.5,6,as6,x,12.6,9.1,11.0,26,253
+2014,toyota,venza 4wd,suv - small,2.7,4,as6,x,11.6,8.5,10.2,28,235
+2014,toyota,venza 4wd,suv - small,3.5,6,as6,x,12.9,9.4,11.3,25,260
+2014,toyota,yaris,compact,1.5,4,a4,x,7.9,6.6,7.3,39,168
+2014,toyota,yaris,compact,1.5,4,m5,x,7.8,6.3,7.1,40,163
+2014,volkswagen,beetle,compact,1.8,4,a6,x,9.5,7.2,8.5,33,196
+2014,volkswagen,beetle,compact,1.8,4,m5,x,9.9,7.2,8.7,32,200
+2014,volkswagen,beetle,compact,2.0,4,a6,z,10.3,7.7,9.1,31,209
+2014,volkswagen,beetle,compact,2.0,4,m6,z,10.8,7.6,9.4,30,216
+2014,volkswagen,beetle,compact,2.5,5,a6,x,10.9,8.4,9.8,29,225
+2014,volkswagen,beetle,compact,2.5,5,m5,x,11.2,7.7,9.6,29,221
+2014,volkswagen,beetle convertible,subcompact,1.8,4,a6,x,9.8,7.3,8.7,32,200
+2014,volkswagen,beetle convertible,subcompact,2.0,4,a6,z,10.3,8.1,9.3,30,214
+2014,volkswagen,beetle convertible,subcompact,2.0,4,m6,z,10.8,7.6,9.4,30,216
+2014,volkswagen,beetle convertible,subcompact,2.5,5,a6,x,11.2,8.7,10.1,28,232
+2014,volkswagen,beetle tdi clean diesel,compact,2.0,4,a6,d,8.2,6.1,7.3,39,197
+2014,volkswagen,beetle tdi clean diesel,compact,2.0,4,m6,d,8.5,5.8,7.3,39,197
+2014,volkswagen,cc,compact,2.0,4,a6,z,11.1,7.9,9.7,29,223
+2014,volkswagen,cc,compact,2.0,4,m6,z,11.6,7.7,9.8,29,225
+2014,volkswagen,cc 4motion,compact,3.6,6,a6,z,14.3,9.8,12.3,23,283
+2014,volkswagen,eos,subcompact,2.0,4,a6,z,10.9,8.0,9.6,29,221
+2014,volkswagen,golf wagon,station wagon - small,2.5,5,a6,x,11.0,7.7,9.5,30,218
+2014,volkswagen,golf wagon,station wagon - small,2.5,5,m5,x,11.2,7.3,9.4,30,216
+2014,volkswagen,golf wagon tdi clean diesel,station wagon - small,2.0,4,a6,d,8.2,6.0,7.2,39,194
+2014,volkswagen,golf wagon tdi clean diesel,station wagon - small,2.0,4,m6,d,7.9,5.6,6.9,41,186
+2014,volkswagen,jetta,compact,1.8,4,a6,x,9.5,6.7,8.2,34,189
+2014,volkswagen,jetta,compact,1.8,4,m5,x,9.4,6.7,8.2,34,189
+2014,volkswagen,jetta,compact,2.0,4,a6,x,10.6,8.0,9.4,30,216
+2014,volkswagen,jetta,compact,2.0,4,m5,x,10.4,7.2,9.0,31,207
+2014,volkswagen,jetta gli,compact,2.0,4,a6,z,10.2,7.5,9.0,31,207
+2014,volkswagen,jetta gli,compact,2.0,4,m6,z,10.6,7.4,9.2,31,212
+2014,volkswagen,jetta tdi clean diesel,compact,2.0,4,a6,d,7.9,5.7,6.9,41,186
+2014,volkswagen,jetta tdi clean diesel,compact,2.0,4,m6,d,7.9,5.6,6.9,41,186
+2014,volkswagen,jetta turbo hybrid,compact,1.4,4,am7,z,5.6,5.2,5.4,52,124
+2014,volkswagen,passat,mid-size,1.8,4,a6,x,9.9,6.9,8.6,33,198
+2014,volkswagen,passat,mid-size,1.8,4,m5,x,10.0,6.9,8.6,33,198
+2014,volkswagen,passat,mid-size,2.5,5,a6,x,11.0,8.0,9.7,29,223
+2014,volkswagen,passat,mid-size,2.5,5,m5,x,11.4,7.8,9.8,29,225
+2014,volkswagen,passat,mid-size,3.6,6,a6,z,12.4,8.8,10.8,26,248
+2014,volkswagen,passat tdi clean diesel,mid-size,2.0,4,a6,d,8.1,5.9,7.1,40,192
+2014,volkswagen,passat tdi clean diesel,mid-size,2.0,4,m6,d,8.0,5.4,6.8,42,184
+2014,volkswagen,routan,minivan,3.6,6,a6,x,14.2,9.5,12.1,23,278
+2014,volkswagen,tiguan,suv - small,2.0,4,a6,z,11.7,9.5,10.7,26,246
+2014,volkswagen,tiguan,suv - small,2.0,4,m6,z,13.6,9.2,11.6,24,267
+2014,volkswagen,tiguan 4motion,suv - small,2.0,4,a6,z,11.7,9.4,10.7,26,246
+2014,volkswagen,touareg,suv - standard,3.6,6,as8,z,13.8,10.3,12.2,23,281
+2014,volkswagen,touareg tdi clean diesel,suv - standard,3.0,6,as8,d,12.3,8.0,10.4,27,281
+2014,volvo,s60,compact,2.5,5,as6,x,11.3,7.8,9.7,29,223
+2014,volvo,s60 awd,compact,2.5,5,as6,x,11.6,8.3,10.1,28,232
+2014,volvo,s60 awd,compact,3.0,6,as6,x,13.2,9.5,11.5,25,264
+2014,volvo,s80,mid-size,3.2,6,as6,x,11.9,8.1,10.2,28,235
+2014,volvo,s80 awd,mid-size,3.0,6,as6,x,13.2,9.5,11.5,25,264
+2014,volvo,xc60,suv - small,3.2,6,as6,x,13.0,8.9,11.2,25,258
+2014,volvo,xc60 awd,suv - small,3.0,6,as6,x,13.4,9.8,11.8,24,271
+2014,volvo,xc60 awd,suv - small,3.2,6,as6,x,13.2,9.5,11.5,25,264
+2014,volvo,xc70 awd,suv - small,3.0,6,as6,x,13.4,9.8,11.8,24,271
+2014,volvo,xc70 awd,suv - small,3.2,6,as6,x,12.9,9.3,11.3,25,260
+2014,volvo,xc90 awd,suv - standard,3.2,6,as6,x,14.9,10.2,12.8,22,294

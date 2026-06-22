@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "696c45bcd9f5104bf49bb820"
+  },
+  "full_name": "Siti Sarah",
+  "email": "siti.s@email.com",
+  "phone": "60112233445",
+  "preferences": {
+    "currency": "MYR",
+    "seat_type": "Aisle",
+    "last_updated": {
+      "$date": "2026-01-18T02:30:20.497Z"
+    }
+  },
+  "created_at": {
+    "$date": "2026-01-18T02:30:20.486Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c45bcd9f5104bf49bb822"
+  },
+  "full_name": "Lim Wei",
+  "email": "lim.wei@email.com",
+  "phone": "60177889900",
+  "preferences": {
+    "currency": "MYR",
+    "seat_type": "Extra Legroom",
+    "last_updated": {
+      "$date": "2026-01-18T02:30:20.497Z"
+    }
+  },
+  "created_at": {
+    "$date": "2026-01-18T02:30:20.486Z"
+  }
+}]
