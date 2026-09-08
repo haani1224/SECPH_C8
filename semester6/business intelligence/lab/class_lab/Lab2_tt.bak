@@ -1,0 +1,723 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab 2\Locations with Data.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Locations with Data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uid" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from Column2" name="City" size="8192" source="Formula: trim(City) (BatchMacro)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Column2" name="State" size="8192" source="Formula: trim(State) (BatchMacro)" type="V_String" />
+            <Field name="Store Point" size="2147483647" source="Geocoder: PortfolioExplorer_Latest Installed TomTom US_US" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Minutes" type="V_String" />
+            <Field name="a00to04_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a05to09_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a10to17_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a18to24_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a25to29_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a30to34_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a35to39_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a40to44_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a45to49_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a50to54_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a55to59_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a60to64_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="a65pls_pct" source="Formula: if [CYA04VBASE] == 0 then 0 else [_CurrentField_]/[CYA04VBASE] endif" type="Double" />
+            <Field name="hhsz1_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz2_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz3_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz4_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="hhsz5pls_pct" source="Formula: if [CYB11VBASE] == 0 then 0 else [_CurrentField_]/[CYB11VBASE] endif" type="Double" />
+            <Field name="EdNoHS_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdHS_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdSomeCol_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdAssoc_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdBach_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdMstr_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdProf_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="EdDoc_pct" source="Formula: if [CYD02VBASE] == 0 then 0 else [_CurrentField_]/[CYD02VBASE] endif" type="Double" />
+            <Field name="IncU10_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc10to20_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc20to30_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc30to40_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc40to50_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc50to60_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc60to75_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc75to100_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc100to125_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc125to150_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc150to200_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc200to250_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Inc250pls_pct" source="Formula: if [CYC01VBASE] == 0 then 0 else [_CurrentField_]/[CYC01VBASE] endif" type="Double" />
+            <Field name="Hisp_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="NonHisp_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="NatA_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="Asian_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="Black_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="PacIsl_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="OtrRace_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="MultiRace_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+            <Field name="White_pct" source="Formula: if [CYA07VBASE] == 0 then 0 else [_CurrentField_]/[CYA07VBASE] endif" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="uid" selected="True" />
+            <SelectField field="PC1" selected="True" rename="PC1Race" />
+            <SelectField field="PC2" selected="True" rename="PC2Race" />
+            <SelectField field="PC3" selected="True" rename="PC3Race" />
+            <SelectField field="PC4" selected="True" rename="PC4Race" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="uid" selected="True" />
+            <SelectField field="PC1" selected="True" rename="PC1Edu" />
+            <SelectField field="PC2" selected="True" rename="PC2Edu" />
+            <SelectField field="PC3" selected="True" rename="PC3Edu" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="uid" selected="True" />
+            <SelectField field="PC1" selected="True" rename="PC1Age" />
+            <SelectField field="PC2" selected="True" rename="PC2Age" />
+            <SelectField field="PC3" selected="True" rename="PC3Age" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="582" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="uid" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="uid" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="uid" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_uid" selected="False" rename="Input_#2_uid" />
+                <SelectField field="Input_#3_uid" selected="False" rename="Input_#3_uid" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="678" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="19">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab 2\clustering_input.yxdb</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>clustering_input.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="160" y="17" width="205" height="349" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Step 1: Identify PCs</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Step 1: Identify PCs</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings>
+            <Position x="186" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="fields">Hisp_pct + NonHisp_pct + NatA_pct + Asian_pct + Black_pct + PacIsl_pct + OtrRace_pct + MultiRace_pct + White_pct</Value>
+              <Value name="scale">True</Value>
+              <Value name="max components">3</Value>
+              <Value name="append pc">True</Value>
+              <Value name="num pc">4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uid" source="R-DATA:" type="Int32" />
+                <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Store.Point" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="RadiusSize" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="a00to04_pct" source="R-DATA:" type="Double" />
+                <Field name="a05to09_pct" source="R-DATA:" type="Double" />
+                <Field name="a10to17_pct" source="R-DATA:" type="Double" />
+                <Field name="a18to24_pct" source="R-DATA:" type="Double" />
+                <Field name="a25to29_pct" source="R-DATA:" type="Double" />
+                <Field name="a30to34_pct" source="R-DATA:" type="Double" />
+                <Field name="a35to39_pct" source="R-DATA:" type="Double" />
+                <Field name="a40to44_pct" source="R-DATA:" type="Double" />
+                <Field name="a45to49_pct" source="R-DATA:" type="Double" />
+                <Field name="a50to54_pct" source="R-DATA:" type="Double" />
+                <Field name="a55to59_pct" source="R-DATA:" type="Double" />
+                <Field name="a60to64_pct" source="R-DATA:" type="Double" />
+                <Field name="a65pls_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz1_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz2_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz3_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz4_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz5pls_pct" source="R-DATA:" type="Double" />
+                <Field name="EdNoHS_pct" source="R-DATA:" type="Double" />
+                <Field name="EdHS_pct" source="R-DATA:" type="Double" />
+                <Field name="EdSomeCol_pct" source="R-DATA:" type="Double" />
+                <Field name="EdAssoc_pct" source="R-DATA:" type="Double" />
+                <Field name="EdBach_pct" source="R-DATA:" type="Double" />
+                <Field name="EdMstr_pct" source="R-DATA:" type="Double" />
+                <Field name="EdProf_pct" source="R-DATA:" type="Double" />
+                <Field name="EdDoc_pct" source="R-DATA:" type="Double" />
+                <Field name="IncU10_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc10to20_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc20to30_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc30to40_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc40to50_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc50to60_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc60to75_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc75to100_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc100to125_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc125to150_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc150to200_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc200to250_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc250pls_pct" source="R-DATA:" type="Double" />
+                <Field name="Hisp_pct" source="R-DATA:" type="Double" />
+                <Field name="NonHisp_pct" source="R-DATA:" type="Double" />
+                <Field name="NatA_pct" source="R-DATA:" type="Double" />
+                <Field name="Asian_pct" source="R-DATA:" type="Double" />
+                <Field name="Black_pct" source="R-DATA:" type="Double" />
+                <Field name="PacIsl_pct" source="R-DATA:" type="Double" />
+                <Field name="OtrRace_pct" source="R-DATA:" type="Double" />
+                <Field name="MultiRace_pct" source="R-DATA:" type="Double" />
+                <Field name="White_pct" source="R-DATA:" type="Double" />
+                <Field name="PC1" source="R-DATA:" type="Double" />
+                <Field name="PC2" source="R-DATA:" type="Double" />
+                <Field name="PC3" source="R-DATA:" type="Double" />
+                <Field name="PC4" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="282" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_21268_e3545aca17ee4a2e84d0c77532b0848c_\Engine_21268_2410ff9955d34a02a229e765105a9b1c~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings>
+            <Position x="186" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="fields">EdNoHS_pct + EdHS_pct + EdSomeCol_pct + EdAssoc_pct + EdBach_pct + EdMstr_pct + EdProf_pct + EdDoc_pct + IncU10_pct + Inc10to20_pct + Inc20to30_pct + Inc30to40_pct + Inc40to50_pct + Inc50to60_pct + Inc60to75_pct + Inc75to100_pct + Inc100to125_pct + Inc125to150_pct + Inc150to200_pct + Inc200to250_pct + Inc250pls_pct</Value>
+              <Value name="scale">True</Value>
+              <Value name="max components">3</Value>
+              <Value name="append pc">True</Value>
+              <Value name="num pc">3</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uid" source="R-DATA:" type="Int32" />
+                <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Store.Point" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="RadiusSize" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="a00to04_pct" source="R-DATA:" type="Double" />
+                <Field name="a05to09_pct" source="R-DATA:" type="Double" />
+                <Field name="a10to17_pct" source="R-DATA:" type="Double" />
+                <Field name="a18to24_pct" source="R-DATA:" type="Double" />
+                <Field name="a25to29_pct" source="R-DATA:" type="Double" />
+                <Field name="a30to34_pct" source="R-DATA:" type="Double" />
+                <Field name="a35to39_pct" source="R-DATA:" type="Double" />
+                <Field name="a40to44_pct" source="R-DATA:" type="Double" />
+                <Field name="a45to49_pct" source="R-DATA:" type="Double" />
+                <Field name="a50to54_pct" source="R-DATA:" type="Double" />
+                <Field name="a55to59_pct" source="R-DATA:" type="Double" />
+                <Field name="a60to64_pct" source="R-DATA:" type="Double" />
+                <Field name="a65pls_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz1_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz2_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz3_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz4_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz5pls_pct" source="R-DATA:" type="Double" />
+                <Field name="EdNoHS_pct" source="R-DATA:" type="Double" />
+                <Field name="EdHS_pct" source="R-DATA:" type="Double" />
+                <Field name="EdSomeCol_pct" source="R-DATA:" type="Double" />
+                <Field name="EdAssoc_pct" source="R-DATA:" type="Double" />
+                <Field name="EdBach_pct" source="R-DATA:" type="Double" />
+                <Field name="EdMstr_pct" source="R-DATA:" type="Double" />
+                <Field name="EdProf_pct" source="R-DATA:" type="Double" />
+                <Field name="EdDoc_pct" source="R-DATA:" type="Double" />
+                <Field name="IncU10_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc10to20_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc20to30_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc30to40_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc40to50_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc50to60_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc60to75_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc75to100_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc100to125_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc125to150_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc150to200_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc200to250_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc250pls_pct" source="R-DATA:" type="Double" />
+                <Field name="Hisp_pct" source="R-DATA:" type="Double" />
+                <Field name="NonHisp_pct" source="R-DATA:" type="Double" />
+                <Field name="NatA_pct" source="R-DATA:" type="Double" />
+                <Field name="Asian_pct" source="R-DATA:" type="Double" />
+                <Field name="Black_pct" source="R-DATA:" type="Double" />
+                <Field name="PacIsl_pct" source="R-DATA:" type="Double" />
+                <Field name="OtrRace_pct" source="R-DATA:" type="Double" />
+                <Field name="MultiRace_pct" source="R-DATA:" type="Double" />
+                <Field name="White_pct" source="R-DATA:" type="Double" />
+                <Field name="PC1" source="R-DATA:" type="Double" />
+                <Field name="PC2" source="R-DATA:" type="Double" />
+                <Field name="PC3" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="282" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_21268_e3545aca17ee4a2e84d0c77532b0848c_\Engine_21268_1642090032974070893d15038f20bc30~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings>
+            <Position x="185" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="fields">a00to04_pct + a05to09_pct + a10to17_pct + a18to24_pct + a25to29_pct + a30to34_pct + a35to39_pct + a40to44_pct + a45to49_pct + a50to54_pct + a55to59_pct + a60to64_pct + a65pls_pct + hhsz1_pct + hhsz2_pct + hhsz3_pct + hhsz4_pct + hhsz5pls_pct</Value>
+              <Value name="scale">True</Value>
+              <Value name="max components">3</Value>
+              <Value name="append pc">True</Value>
+              <Value name="num pc">3</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uid" source="R-DATA:" type="Int32" />
+                <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Store.Point" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="RadiusSize" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="a00to04_pct" source="R-DATA:" type="Double" />
+                <Field name="a05to09_pct" source="R-DATA:" type="Double" />
+                <Field name="a10to17_pct" source="R-DATA:" type="Double" />
+                <Field name="a18to24_pct" source="R-DATA:" type="Double" />
+                <Field name="a25to29_pct" source="R-DATA:" type="Double" />
+                <Field name="a30to34_pct" source="R-DATA:" type="Double" />
+                <Field name="a35to39_pct" source="R-DATA:" type="Double" />
+                <Field name="a40to44_pct" source="R-DATA:" type="Double" />
+                <Field name="a45to49_pct" source="R-DATA:" type="Double" />
+                <Field name="a50to54_pct" source="R-DATA:" type="Double" />
+                <Field name="a55to59_pct" source="R-DATA:" type="Double" />
+                <Field name="a60to64_pct" source="R-DATA:" type="Double" />
+                <Field name="a65pls_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz1_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz2_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz3_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz4_pct" source="R-DATA:" type="Double" />
+                <Field name="hhsz5pls_pct" source="R-DATA:" type="Double" />
+                <Field name="EdNoHS_pct" source="R-DATA:" type="Double" />
+                <Field name="EdHS_pct" source="R-DATA:" type="Double" />
+                <Field name="EdSomeCol_pct" source="R-DATA:" type="Double" />
+                <Field name="EdAssoc_pct" source="R-DATA:" type="Double" />
+                <Field name="EdBach_pct" source="R-DATA:" type="Double" />
+                <Field name="EdMstr_pct" source="R-DATA:" type="Double" />
+                <Field name="EdProf_pct" source="R-DATA:" type="Double" />
+                <Field name="EdDoc_pct" source="R-DATA:" type="Double" />
+                <Field name="IncU10_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc10to20_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc20to30_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc30to40_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc40to50_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc50to60_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc60to75_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc75to100_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc100to125_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc125to150_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc150to200_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc200to250_pct" source="R-DATA:" type="Double" />
+                <Field name="Inc250pls_pct" source="R-DATA:" type="Double" />
+                <Field name="Hisp_pct" source="R-DATA:" type="Double" />
+                <Field name="NonHisp_pct" source="R-DATA:" type="Double" />
+                <Field name="NatA_pct" source="R-DATA:" type="Double" />
+                <Field name="Asian_pct" source="R-DATA:" type="Double" />
+                <Field name="Black_pct" source="R-DATA:" type="Double" />
+                <Field name="PacIsl_pct" source="R-DATA:" type="Double" />
+                <Field name="OtrRace_pct" source="R-DATA:" type="Double" />
+                <Field name="MultiRace_pct" source="R-DATA:" type="Double" />
+                <Field name="White_pct" source="R-DATA:" type="Double" />
+                <Field name="PC1" source="R-DATA:" type="Double" />
+                <Field name="PC2" source="R-DATA:" type="Double" />
+                <Field name="PC3" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="282" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_21268_e3545aca17ee4a2e84d0c77532b0848c_\Engine_21268_a12a607f27ea42a0a562ac49afbef979~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Data Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Reports" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Lab2_tt</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ec46f31a-a884-4284-b4b3-04138ae72b1f" />
+      <Telemetry>
+        <PreviousWorkflowId value="a6b4c1e6-1c7f-4d46-8bef-67d3294a0c17" />
+        <OriginWorkflowId value="a6b4c1e6-1c7f-4d46-8bef-67d3294a0c17" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
