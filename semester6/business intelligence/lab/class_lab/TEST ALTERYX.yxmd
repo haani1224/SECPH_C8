@@ -1,0 +1,1562 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="126" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>1</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_CUUPV8QV.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_CUUPV8QV.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Ticket ID Number" source="File: C:\Users\Owner\Downloads\4701229_CUUPV8QV.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Date of Violation" source="File: C:\Users\Owner\Downloads\4701229_CUUPV8QV.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Fine Amount" source="File: C:\Users\Owner\Downloads\4701229_CUUPV8QV.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="138" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Date of Violation] &gt;= "2018-01-01" AND [Date of Violation] &lt;= "2018-12-12"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Date of Violation] &gt;= "2018-01-01" AND [Date of Violation] &lt;= "2018-12-12"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="258" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Fine Amount" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Fine Amount - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="330" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>20</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 20 rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="426" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Fine Amount" action="Avg" rename="Avg_Fine Amount" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="162" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>2</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_D3XDAQ77.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_D3XDAQ77.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Destination" size="255" source="File: C:\Users\Owner\Downloads\4701229_D3XDAQ77.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Weight (Pounds)" source="File: C:\Users\Owner\Downloads\4701229_D3XDAQ77.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="126" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [Weight (Pounds)] &lt; 2 THEN 0 ELSE [Weight (Pounds)] * 1.99 ENDIF" field="Shipping_Cost" size="8" type="Double" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Shipping_Cost = IF [Weight (Pounds)] &lt; 2 THEN 0 ELSE [Weight (Pounds)] * 1.99 EN...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="222" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Shipping_Cost" action="Avg" rename="Avg_Shipping_Cost" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="198" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>3</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>3</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_V6RBEFWI.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_V6RBEFWI.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Toaster ID Number" source="File: C:\Users\Owner\Downloads\4701229_V6RBEFWI.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Type" size="255" source="File: C:\Users\Owner\Downloads\4701229_V6RBEFWI.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Cost" size="255" source="File: C:\Users\Owner\Downloads\4701229_V6RBEFWI.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="138" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="TrimRight([Cost],&quot; dollars&quot;)" field="Cost" size="255" type="V_String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Cost = TrimRight([Cost]," dollars")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="210" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Cost" selected="True" type="Int16" size="2" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="294" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Cost" action="Avg" rename="Avg_Cost" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="234" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>4</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>4</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_L2W7R41L.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Customer_ID" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Store Number" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Customer Segment" size="255" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="First Name" size="255" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Last Name" size="255" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Address" size="255" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="City" size="255" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="State" size="255" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Zip" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Visits" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Spend" source="File: C:\Users\Owner\Downloads\4701229_L2W7R41L.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="150" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Store Number" action="GroupBy" rename="Store Number" />
+                <SummarizeField field="Customer Segment" action="GroupBy" rename="Customer Segment" />
+                <SummarizeField field="Spend" action="Median" rename="Median_Spend" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="246" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Store Number" order="Ascending" />
+                <Field field="Customer Segment" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Store Number - Ascending
+Customer Segment - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="17" y="269" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>5</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>5</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_TE4M93RX.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_TE4M93RX.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Title" size="255" source="File: C:\Users\Owner\Downloads\4701229_TE4M93RX.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Date_Added" size="255" source="File: C:\Users\Owner\Downloads\4701229_TE4M93RX.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Duration" source="File: C:\Users\Owner\Downloads\4701229_TE4M93RX.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="234" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Date] &gt;= "2018-08-25" AND [Date] &lt;= "2018-09-07"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Date] &gt;= "2018-08-25" AND [Date] &lt;= "2018-09-07"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="138" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date_Added</InputFieldName>
+              <Language>English</Language>
+              <Format>Month dd, yyyy</Format>
+              <OutputFieldName>Date</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date_Added From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="330" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Duration" action="Median" rename="Median_Duration" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="306" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>6</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>6</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="138" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Categories</Field>
+              <Delimeters value="," />
+              <NumFields value="3" />
+              <Mode value="Rows" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="222" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Trim([Categories])" field="Categories" size="255" type="V_String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Categories = Trim([Categories])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="330" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Categories" action="GroupBy" rename="Categories" />
+                <SummarizeField field="Title" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="426" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_FI99MH55.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_FI99MH55.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Show_ID" size="255" source="File: C:\Users\Owner\Downloads\4701229_FI99MH55.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Type" size="255" source="File: C:\Users\Owner\Downloads\4701229_FI99MH55.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Title" size="255" source="File: C:\Users\Owner\Downloads\4701229_FI99MH55.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Categories" size="255" source="File: C:\Users\Owner\Downloads\4701229_FI99MH55.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="16" y="341" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>7</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>7</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_AWP4R6LO.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Customer_ID" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Store Number" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Customer Segment" size="255" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="First Name" size="255" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Last Name" size="255" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Address" size="255" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="City" size="255" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="State" size="255" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Zip" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Visits" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Spend" source="File: C:\Users\Owner\Downloads\4701229_AWP4R6LO.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="126" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;</Operator>
+                <Field>Spend</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2026-07-06 01:54:29</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>5000</Operand>
+                  <StartDate>2026-07-06 01:54:29</StartDate>
+                  <EndDate>2026-07-06 01:54:29</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Spend] &gt; 5000</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="318" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Spend" action="Sum" rename="Sum_Spend" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="222" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Customer Segment] == "Corporate" AND [City] == "DENVER"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Customer Segment] == "Corporate" AND [City] == "DENVER"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="378" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>8</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>8</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_YK5IEQ9R.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_YK5IEQ9R.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Date" source="File: C:\Users\Owner\Downloads\4701229_YK5IEQ9R.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Burritos" source="File: C:\Users\Owner\Downloads\4701229_YK5IEQ9R.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="138" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="True" />
+              <InputFieldName>Date</InputFieldName>
+              <Language>English</Language>
+              <Format>day</Format>
+              <OutputFieldName>Day</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date To:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="222" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Day</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2026-07-06 02:02:36</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>Thursday</Operand>
+                  <StartDate>2026-07-06 02:02:36</StartDate>
+                  <EndDate>2026-07-06 02:02:36</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Day] = "Thursday"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="318" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Burritos" action="Avg" rename="Avg_Burritos" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="414" width="86" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>9</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>9</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_VH3Z4O5W.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Company Name" size="255" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="ABH Heating" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="AC DC Electrical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Air Quality Monitors LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Air Quality Professionals" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Air Temp Restoration" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Arctic AC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="B. B. Oil Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Barry Oil Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="The HVAC Brothers" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Circulation Resoration LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Colton Pro Mechanical Group" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Comfy Cozy Home Restoration" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Commercial Electrical Contractors" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Complete Air Systems" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Cool Climate HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="D and F Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Deluxe Air Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Denver Electrical Contractors" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Electrical Contractors Plus" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Electricians R Us" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Eli's Electrical and HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Elite Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Fieldman Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Fred's AC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Furnace Doctors LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="G.K. Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="G.A. Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Garrett Brothers Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Gary H. Bowlen Air Conditioning" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Gary Pierce Electical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Geoff's HVAC services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Gilberto and Son HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="H.M. Oil Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="High and Low Resoration" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Hobbs and Son Heating and Air Conditioning" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Icey Hot HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Idaho's Finest Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Igloo AC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Jackson Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Jaylon Gauss Electrical LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="John P Knowles HVAC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Johnson Brothers' Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="L.K. Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Lakeside Elite Heating" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Larry and Son Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Lindsay's HVAC services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Luxury Air Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Manny's AC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Matt's Oil Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Mechanical Maintenance Pros" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Medford Oil LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Mike and Miguel's Electical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Miles Q  Lane Electrical and HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Mountainside Elite Heating" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Mr. Freeze Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Mr. Frostee Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Nebraska's Finest Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Ned's HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="O.J. Air Conditioning" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Oak Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="On Demand Mechanical Solutions" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Paul and Son Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Penguin Brothers' Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Pinnacle Heating Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Platte Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Plumber and Son Heating and Air Conditioning" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Polar Brothers' Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Power Restoration Ltd" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Premier Electrical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Premier Furnace Maintenance" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Premier Heating Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Premier Home Mechanical Maintenance" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Premier Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Pro HVAC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Quality Home Restoration" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Quigley and Son HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="R.D. Whole Home Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Ralph Air Repair Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Remote Mechanical Solutions" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Residential Cooling Consultants" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Roger T  Lyons HVAC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="S.Y. Air Conditioning" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Service Pros" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Stonington Oil LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Suburban Cooling Consultants" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Ted's HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Temperature Control LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Temperature Doctors" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Temperature Fixers LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="The Frozen Furnace Fixers" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="The Furnace Magicians" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="The Home Doctors LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="The HVAC Professionals" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Thermostat Monitors LLC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Timber Mechanical Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Tipton Air Conditioning" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Tom's Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Tony Air Repair Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Top HVAC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Total AC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Total Air Systems" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="TPL Heating" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Tyson Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Ultimate Furnace Maintenance" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="United AC Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Vaughn Family HVAC" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="W.B. Heating Services" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Warm and Welcoming Home Restoration" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Will's Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Wilson Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Xavier Heating and Cooling" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+                <Field name="Yates Pro Mechanical Group" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="126" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields />
+              <DataFields>
+                <Field field="Company Name" selected="True" />
+                <Field field="ABH Heating" selected="True" />
+                <Field field="AC DC Electrical Services" selected="True" />
+                <Field field="Air Quality Monitors LLC" selected="True" />
+                <Field field="Air Quality Professionals" selected="True" />
+                <Field field="Air Temp Restoration" selected="True" />
+                <Field field="Arctic AC Services" selected="True" />
+                <Field field="B. B. Oil Services" selected="True" />
+                <Field field="Barry Oil Services" selected="True" />
+                <Field field="The HVAC Brothers" selected="True" />
+                <Field field="Circulation Resoration LLC" selected="True" />
+                <Field field="Colton Pro Mechanical Group" selected="True" />
+                <Field field="Comfy Cozy Home Restoration" selected="True" />
+                <Field field="Commercial Electrical Contractors" selected="True" />
+                <Field field="Complete Air Systems" selected="True" />
+                <Field field="Cool Climate HVAC" selected="True" />
+                <Field field="D and F Cooling" selected="True" />
+                <Field field="Deluxe Air Services" selected="True" />
+                <Field field="Denver Electrical Contractors" selected="True" />
+                <Field field="Electrical Contractors Plus" selected="True" />
+                <Field field="Electricians R Us" selected="True" />
+                <Field field="Eli's Electrical and HVAC" selected="True" />
+                <Field field="Elite Mechanical Services" selected="True" />
+                <Field field="Fieldman Heating and Cooling" selected="True" />
+                <Field field="Fred's AC" selected="True" />
+                <Field field="Furnace Doctors LLC" selected="True" />
+                <Field field="G.K. Cooling" selected="True" />
+                <Field field="G.A. Heating and Cooling" selected="True" />
+                <Field field="Garrett Brothers Mechanical Services" selected="True" />
+                <Field field="Gary H. Bowlen Air Conditioning" selected="True" />
+                <Field field="Gary Pierce Electical Services" selected="True" />
+                <Field field="Geoff's HVAC services" selected="True" />
+                <Field field="Gilberto and Son HVAC" selected="True" />
+                <Field field="H.M. Oil Services" selected="True" />
+                <Field field="High and Low Resoration" selected="True" />
+                <Field field="Hobbs and Son Heating and Air Conditioning" selected="True" />
+                <Field field="Icey Hot HVAC" selected="True" />
+                <Field field="Idaho's Finest Mechanical Services" selected="True" />
+                <Field field="Igloo AC Services" selected="True" />
+                <Field field="Jackson Cooling" selected="True" />
+                <Field field="Jaylon Gauss Electrical LLC" selected="True" />
+                <Field field="John P Knowles HVAC Services" selected="True" />
+                <Field field="Johnson Brothers' Mechanical Services" selected="True" />
+                <Field field="L.K. Heating and Cooling" selected="True" />
+                <Field field="Lakeside Elite Heating" selected="True" />
+                <Field field="Larry and Son Heating and Cooling" selected="True" />
+                <Field field="Lindsay's HVAC services" selected="True" />
+                <Field field="Luxury Air Services" selected="True" />
+                <Field field="Manny's AC" selected="True" />
+                <Field field="Matt's Oil Services" selected="True" />
+                <Field field="Mechanical Maintenance Pros" selected="True" />
+                <Field field="Medford Oil LLC" selected="True" />
+                <Field field="Mike and Miguel's Electical Services" selected="True" />
+                <Field field="Miles Q  Lane Electrical and HVAC" selected="True" />
+                <Field field="Mountainside Elite Heating" selected="True" />
+                <Field field="Mr. Freeze Cooling" selected="True" />
+                <Field field="Mr. Frostee Cooling" selected="True" />
+                <Field field="Nebraska's Finest Mechanical Services" selected="True" />
+                <Field field="Ned's HVAC" selected="True" />
+                <Field field="O.J. Air Conditioning" selected="True" />
+                <Field field="Oak Mechanical Services" selected="True" />
+                <Field field="On Demand Mechanical Solutions" selected="True" />
+                <Field field="Paul and Son Heating and Cooling" selected="True" />
+                <Field field="Penguin Brothers' Cooling" selected="True" />
+                <Field field="Pinnacle Heating Services" selected="True" />
+                <Field field="Platte Heating and Cooling" selected="True" />
+                <Field field="Plumber and Son Heating and Air Conditioning" selected="True" />
+                <Field field="Polar Brothers' Cooling" selected="True" />
+                <Field field="Power Restoration Ltd" selected="True" />
+                <Field field="Premier Electrical Services" selected="True" />
+                <Field field="Premier Furnace Maintenance" selected="True" />
+                <Field field="Premier Heating Services" selected="True" />
+                <Field field="Premier Home Mechanical Maintenance" selected="True" />
+                <Field field="Premier Mechanical Services" selected="True" />
+                <Field field="Pro HVAC Services" selected="True" />
+                <Field field="Quality Home Restoration" selected="True" />
+                <Field field="Quigley and Son HVAC" selected="True" />
+                <Field field="R.D. Whole Home Services" selected="True" />
+                <Field field="Ralph Air Repair Services" selected="True" />
+                <Field field="Remote Mechanical Solutions" selected="True" />
+                <Field field="Residential Cooling Consultants" selected="True" />
+                <Field field="Roger T  Lyons HVAC Services" selected="True" />
+                <Field field="S.Y. Air Conditioning" selected="True" />
+                <Field field="Service Pros" selected="True" />
+                <Field field="Stonington Oil LLC" selected="True" />
+                <Field field="Suburban Cooling Consultants" selected="True" />
+                <Field field="Ted's HVAC" selected="True" />
+                <Field field="Temperature Control LLC" selected="True" />
+                <Field field="Temperature Doctors" selected="True" />
+                <Field field="Temperature Fixers LLC" selected="True" />
+                <Field field="The Frozen Furnace Fixers" selected="True" />
+                <Field field="The Furnace Magicians" selected="True" />
+                <Field field="The Home Doctors LLC" selected="True" />
+                <Field field="The HVAC Professionals" selected="True" />
+                <Field field="Thermostat Monitors LLC" selected="True" />
+                <Field field="Timber Mechanical Services" selected="True" />
+                <Field field="Tipton Air Conditioning" selected="True" />
+                <Field field="Tom's Heating and Cooling" selected="True" />
+                <Field field="Tony Air Repair Services" selected="True" />
+                <Field field="Top HVAC Services" selected="True" />
+                <Field field="Total AC Services" selected="True" />
+                <Field field="Total Air Systems" selected="True" />
+                <Field field="TPL Heating" selected="True" />
+                <Field field="Tyson Heating and Cooling" selected="True" />
+                <Field field="Ultimate Furnace Maintenance" selected="True" />
+                <Field field="United AC Services" selected="True" />
+                <Field field="Vaughn Family HVAC" selected="True" />
+                <Field field="W.B. Heating Services" selected="True" />
+                <Field field="Warm and Welcoming Home Restoration" selected="True" />
+                <Field field="Will's Heating and Cooling" selected="True" />
+                <Field field="Wilson Cooling" selected="True" />
+                <Field field="Xavier Heating and Cooling" selected="True" />
+                <Field field="Yates Pro Mechanical Group" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="197" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>FirstRow</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="Name" />
+                <Field name="Value" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression />
+              <FirstRow>
+                <OnError>Warn</OnError>
+              </FirstRow>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Company Name" size="44" source="Transpose:" type="String" />
+                <Field name="Date of First Contract" size="255" source="File: C:\Users\Owner\Downloads\4701229_VH3Z4O5W.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="281" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[[Date of First Contract] >= "2010-01-01" AND [Date of First Contract] <= "2017-01-01" ]]></Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Date of First Contract] &gt;= "2010-01-01" AND [Date of First Contract] &lt;= "2017-0...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="378" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Company Name" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="90" width="93" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>10</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>10</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Downloads\4701229_R025CWRC.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>4701229_R025CWRC.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Airport ID" size="255" source="File: C:\Users\Owner\Downloads\4701229_R025CWRC.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Type" size="255" source="File: C:\Users\Owner\Downloads\4701229_R025CWRC.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Name" size="255" source="File: C:\Users\Owner\Downloads\4701229_R025CWRC.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Elevation" source="File: C:\Users\Owner\Downloads\4701229_R025CWRC.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="State" size="255" source="File: C:\Users\Owner\Downloads\4701229_R025CWRC.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="126" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Type] == "heliport" OR [Type] == "seaplane_base"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Type] == "heliport" OR [Type] == "seaplane_base"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="234" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="State" action="GroupBy" rename="State" />
+                <SummarizeField field="Elevation" action="Avg" rename="Avg_Elevation" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="318" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Avg_Elevation" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Avg_Elevation - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="True" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="True" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="True" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>TEST ALTERYX</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="aab45662-a291-4a04-9cee-2279c2cbb986" />
+      <Telemetry>
+        <PreviousWorkflowId value="cc73b9dc-2e62-4ebb-8017-b769b6f647a2" />
+        <OriginWorkflowId value="cc73b9dc-2e62-4ebb-8017-b769b6f647a2" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
