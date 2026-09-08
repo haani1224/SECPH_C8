@@ -1,0 +1,1012 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2250" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="19">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\output phase 2 dataset.yxdb</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output phase 2 dataset.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="197" y="37" width="397" height="345" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data cleaning</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data cleaning</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="222" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Language>English</Language>
+              <Format>dd/MM/yyyy</Format>
+              <OutputFieldName>Date_New</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+dd/MM/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="222" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Language>English</Language>
+              <Format>dd/MM/yyyy</Format>
+              <OutputFieldName>Date_New</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+dd/MM/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="222" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Store" selected="True" type="Int64" size="8" />
+                <SelectField field="Size" selected="True" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="294" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Store" selected="True" type="Int64" size="8" />
+                <SelectField field="Dept" selected="True" type="Int64" size="8" />
+                <SelectField field="Date_New" selected="True" rename="Date" />
+                <SelectField field="Date" selected="False" />
+                <SelectField field="Weekly_Sales" selected="True" type="Float" size="4" />
+                <SelectField field="IsHoliday" selected="True" type="Bool" size="1" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="378" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Store" />
+                <Field field="Dept" />
+                <Field field="Date" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings>
+            <Position x="390" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"MarkDown1","MarkDown2","MarkDown3","MarkDown4","MarkDown5"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="306" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Store" selected="True" type="Int64" size="8" />
+                <SelectField field="Date_New" selected="True" rename="Date" />
+                <SelectField field="Date" selected="False" />
+                <SelectField field="Temperature" selected="True" type="Double" size="8" />
+                <SelectField field="Fuel_Price" selected="True" type="Double" size="8" />
+                <SelectField field="MarkDown1" selected="True" type="Double" size="8" />
+                <SelectField field="MarkDown2" selected="True" type="Double" size="8" />
+                <SelectField field="MarkDown3" selected="True" type="Double" size="8" />
+                <SelectField field="MarkDown4" selected="True" type="Double" size="8" />
+                <SelectField field="MarkDown5" selected="True" type="Double" size="8" />
+                <SelectField field="CPI" selected="True" type="Double" size="8" />
+                <SelectField field="Unemployment" selected="True" type="Double" size="8" />
+                <SelectField field="IsHoliday" selected="True" type="Bool" size="1" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="1">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings>
+            <Position x="474" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="listbox Select Incoming Fields">"CPI","Unemployment"</Value>
+              <Value name="radio Null Value">True</Value>
+              <Value name="radio User Specified Replace From Value">False</Value>
+              <Value name="updown User Replace Value">0.00000</Value>
+              <Value name="radio Mean">True</Value>
+              <Value name="radio Median">False</Value>
+              <Value name="radio Mode">False</Value>
+              <Value name="radio User Specified Replace With Value">False</Value>
+              <Value name="updown User Replace With Value">0.00000</Value>
+              <Value name="checkbox Impute Indicator">False</Value>
+              <Value name="checkbox Imputed Values Separate Field">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Int64" />
+                <Field name="Date" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Date" />
+                <Field name="Temperature" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="Fuel_Price" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="MarkDown1" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="MarkDown2" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="MarkDown3" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="MarkDown4" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="MarkDown5" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="CPI" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="Unemployment" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="IsHoliday" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Imputation_v3.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="54" width="152" height="360" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Input</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data Input</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Features data set.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="Temperature" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="Fuel_Price" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="MarkDown1" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="MarkDown2" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="MarkDown3" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="MarkDown4" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="MarkDown5" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="CPI" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="Unemployment" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+                <Field name="IsHoliday" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\Features data set.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="199" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\sales data-set.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sales data-set.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\sales data-set.csv" type="V_String" />
+                <Field name="Dept" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\sales data-set.csv" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\sales data-set.csv" type="V_String" />
+                <Field name="Weekly_Sales" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\sales data-set.csv" type="V_String" />
+                <Field name="IsHoliday" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\sales data-set.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="283" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\stores data-set.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>stores data-set.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\stores data-set.csv" type="V_String" />
+                <Field name="Type" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\stores data-set.csv" type="V_String" />
+                <Field name="Size" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Project BI\stores data-set.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="617" y="53" width="613" height="338" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Integration and Tranformation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data Integration and Tranformation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="642" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Date" />
+                <Field field="Store" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Date" />
+                <Field field="Store" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                    <SelectField field="Right_Date" selected="False" rename="Right_Date" input="Right_" />
+                    <SelectField field="Right_IsHoliday" selected="False" rename="Right_IsHoliday" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="714" y="185" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Store" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Store" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="918" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Store" action="GroupBy" rename="Store" />
+                <SummarizeField field="Weekly_Sales" action="Sum" rename="Sum_Weekly_Sales" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1014" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [Sum_Weekly_Sales] &lt; 100000000 THEN &quot;Low Volume&quot;&#xA;ELSEIF [Sum_Weekly_Sales] &lt;= 200000000 THEN &quot;Medium Volume&quot;&#xA;ELSE &quot;High Volume&quot;&#xA;ENDIF" field="Performance_Tier" size="2147483647" type="V_String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Performance_Tier = IF [Sum_Weekly_Sales] &lt; 100000000 THEN "Low Volume"
+ELSEIF [S...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1146" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Store" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Store" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1253" y="53" width="956" height="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Feature Creation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Feature Creation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1278" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeYear([Date])" field="Year" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="DateTimeMonth([Date])" field="Month" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([Month] &lt;= 3, 1, IIF([Month] &lt;= 6, 2, IIF([Month] &lt;= 9, 3, 4)))" field="Quarter" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="ToNumber(DateTimeFormat([Date],&quot;%W&quot;))" field="Week_Of_Year" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([Quarter] = 4, 1, 0)" field="Is_Q4" size="8" type="Int64" enabled="true" />
+                <FormulaField expression="ToString([Store])+&quot;_&quot;+ToString([Dept])" field="Dept_Store_Key" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year = DateTimeYear([Date])
+Month = DateTimeMonth([Date])
+Quarter = IIF([Month] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1386" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([Size]&lt;100000, &quot;Small&quot;, IIF([Size]&lt;150000, &quot;Medium&quot;, &quot;Large&quot;))" field="Store_size_segment" size="1073741823" type="V_WString" enabled="true" />
+                <FormulaField expression="IIF([Size]&gt;0, [Weekly_Sales]/[Size], 0)" field="Sales_per_sqft" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF([Performance_Tier]=&quot;Low volume&quot;, 1, IIF([Performance_Tier]=&quot;Medium volume&quot;, 2, 3))" field="Perf_tier_numeric" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Store_size_segment = IIF([Size]&lt;100000, "Small", IIF([Size]&lt;150000, "Medium", "L...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1506" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([Temperature]&lt;40, &quot;Cold&quot;, IIF([Temperature]&lt;70, &quot;Mild&quot;, &quot;Hot&quot;))" field="Temp_band" size="1073741823" type="V_WString" enabled="true" />
+                <FormulaField expression="[Temperature] - 60" field="Temp_deviation" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Temp_band = IIF([Temperature]&lt;40, "Cold", IIF([Temperature]&lt;70, "Mild", "Hot"))
+...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1626" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Store" action="GroupBy" rename="Store" />
+                <SummarizeField field="Weekly_Sales" action="Avg" rename="Avg_Store_Sales" />
+                <SummarizeField field="Weekly_Sales" action="Sum" rename="Sum_Sales_Check" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1710" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Store" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Store" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Store" selected="True" input="Left_" />
+                    <SelectField field="Left_Type" selected="True" input="Left_" />
+                    <SelectField field="Left_Size" selected="True" input="Left_" />
+                    <SelectField field="Left_Dept" selected="True" input="Left_" />
+                    <SelectField field="Left_Date" selected="True" input="Left_" />
+                    <SelectField field="Left_Weekly_Sales" selected="True" input="Left_" />
+                    <SelectField field="Left_IsHoliday" selected="True" input="Left_" />
+                    <SelectField field="Left_Temperature" selected="True" input="Left_" />
+                    <SelectField field="Left_Fuel_Price" selected="True" input="Left_" />
+                    <SelectField field="Left_MarkDown1" selected="True" input="Left_" />
+                    <SelectField field="Left_MarkDown2" selected="True" input="Left_" />
+                    <SelectField field="Left_MarkDown3" selected="True" input="Left_" />
+                    <SelectField field="Left_MarkDown4" selected="True" input="Left_" />
+                    <SelectField field="Left_MarkDown5" selected="True" input="Left_" />
+                    <SelectField field="Left_CPI" selected="True" input="Left_" />
+                    <SelectField field="Left_Unemployment" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_Weekly_Sales" selected="True" input="Left_" />
+                    <SelectField field="Left_Performance_Tier" selected="True" input="Left_" />
+                    <SelectField field="Left_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Month" selected="True" input="Left_" />
+                    <SelectField field="Left_Quarter" selected="True" input="Left_" />
+                    <SelectField field="Left_Week_Of_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Is_Q4" selected="True" input="Left_" />
+                    <SelectField field="Left_Dept_Store_Key" selected="True" input="Left_" />
+                    <SelectField field="Left_Store_size_segment" selected="True" input="Left_" />
+                    <SelectField field="Left_Sales_per_sqft" selected="True" input="Left_" />
+                    <SelectField field="Left_Perf_tier_numeric" selected="True" input="Left_" />
+                    <SelectField field="Left_Temp_band" selected="True" input="Left_" />
+                    <SelectField field="Left_Temp_deviation" selected="True" input="Left_" />
+                    <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                    <SelectField field="Right_Avg_Store_Sales" selected="True" input="Right_" />
+                    <SelectField field="Right_Sum_Sales_Check" selected="True" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1806" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Weekly_Sales] - [Avg_Store_Sales]" field="Sales_vs_storeAvg" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF([IsHoliday], [Weekly_Sales]-[Avg_Store_Sales], 0)" field="Holiday_sales_lift" size="8" type="Double" enabled="true" />
+                <FormulaField expression="([Unemployment]*0.5)+([Fuel_Price]*0.3)+([CPI]/100*0.2)" field="Econ_stress_index" size="1073741823" type="V_WString" enabled="true" />
+                <FormulaField expression="IIF([Unemployment]&gt;8, 1, 0)" field="High_unemployment" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sales_vs_storeAvg = [Weekly_Sales] - [Avg_Store_Sales]
+Holiday_sales_lift = IIF(...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1914" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Dept" order="Ascending" />
+                <Field field="Weekly_Sales" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Dept - Ascending
+Weekly_Sales - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="2022" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>Store</UpdateField_Name>
+              <CreateField_Name>Dept_sales_rank</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>IF ISNULL([Row-1:Dept_sales_rank]) THEN 1
+ELSE [Row-1:Dept_sales_rank] + 1
+ENDIF</Expression>
+              <GroupByFields>
+                <Field field="Dept" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF ISNULL([Row-1:Dept_sales_rank]) THEN 1
+ELSE [Row-1:Dept_sa...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2118" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Store" selected="True" />
+                <SelectField field="Type" selected="True" />
+                <SelectField field="Size" selected="True" />
+                <SelectField field="Dept" selected="True" />
+                <SelectField field="Date" selected="True" />
+                <SelectField field="Weekly_Sales" selected="True" />
+                <SelectField field="IsHoliday" selected="True" />
+                <SelectField field="Temperature" selected="True" />
+                <SelectField field="Fuel_Price" selected="True" />
+                <SelectField field="CPI" selected="True" />
+                <SelectField field="Unemployment" selected="True" />
+                <SelectField field="Sum_Weekly_Sales" selected="True" />
+                <SelectField field="Performance_Tier" selected="True" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Month" selected="True" />
+                <SelectField field="Quarter" selected="True" />
+                <SelectField field="Week_Of_Year" selected="True" />
+                <SelectField field="Is_Q4" selected="True" />
+                <SelectField field="Dept_Store_Key" selected="True" />
+                <SelectField field="Store_size_segment" selected="True" />
+                <SelectField field="Sales_per_sqft" selected="True" />
+                <SelectField field="Perf_tier_numeric" selected="True" />
+                <SelectField field="Temp_band" selected="True" />
+                <SelectField field="Temp_deviation" selected="True" />
+                <SelectField field="Avg_Store_Sales" selected="True" />
+                <SelectField field="Holiday_sales_lift" selected="True" />
+                <SelectField field="Econ_stress_index" selected="True" />
+                <SelectField field="High_unemployment" selected="True" />
+                <SelectField field="Dept_sales_rank" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="16" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="16" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Unique" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output26" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Join" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Join" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Join" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="True" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>BI_Project_Phase 2_HAI complete - new</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="bc65c8a3-5860-42b5-8e7a-3e447027e2ef" />
+      <Telemetry>
+        <PreviousWorkflowId value="724ca55e-ccd9-461e-ae0e-ba094fb3ba64" />
+        <OriginWorkflowId value="724ca55e-ccd9-461e-ae0e-ba094fb3ba64" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
