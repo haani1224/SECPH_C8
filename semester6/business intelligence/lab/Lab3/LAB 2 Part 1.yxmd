@@ -1,0 +1,793 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="53" width="631" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Cleaning &amp; Preparation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data Cleaning &amp; Preparation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="378" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Attrition_Flag" selected="False" />
+                <SelectField field="Gender" selected="False" />
+                <SelectField field="Education_Level" selected="False" />
+                <SelectField field="Marital_Status" selected="False" />
+                <SelectField field="Income_Category" selected="False" />
+                <SelectField field="Card_Category" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="270" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [Attrition_Flag] = &quot;Attrited Customer&quot; THEN 1 ELSE 0 ENDIF" field="Attrition_Flag_Num" size="64" type="String" enabled="true" />
+                <FormulaField expression="IF [Gender] = &quot;M&quot; THEN 1 ELSE 0 ENDIF" field="Gender_Num" size="64" type="String" enabled="true" />
+                <FormulaField expression="IF [Education_Level] = &quot;Uneducated&quot; THEN 1&#xA;ELSEIF [Education_Level] = &quot;High School&quot; THEN 2&#xA;ELSEIF [Education_Level] = &quot;College&quot; THEN 3&#xA;ELSEIF [Education_Level] = &quot;Graduate&quot; THEN 4&#xA;ELSEIF [Education_Level] = &quot;Post-Graduate&quot; THEN 5&#xA;ELSEIF [Education_Level] = &quot;Doctorate&quot; THEN 6&#xA;ELSE 0 ENDIF" field="Education_Num" size="64" type="String" enabled="true" />
+                <FormulaField expression="IF [Income_Category] = &quot;Less than $40K&quot; THEN 1&#xA;ELSEIF [Income_Category] = &quot;$40K - $60K&quot; THEN 2&#xA;ELSEIF [Income_Category] = &quot;$60K - $80K&quot; THEN 3&#xA;ELSEIF [Income_Category] = &quot;$80K - $120K&quot; THEN 4&#xA;ELSEIF [Income_Category] = &quot;$120K +&quot; THEN 5&#xA;ELSE 0 ENDIF" field="Income_Num" size="64" type="String" enabled="true" />
+                <FormulaField expression="IF [Marital_Status] = &quot;Single&quot; THEN 1&#xA;ELSEIF [Marital_Status] = &quot;Married&quot; THEN 2&#xA;ELSEIF [Marital_Status] = &quot;Divorced&quot; THEN 3&#xA;ELSE 0 ENDIF" field="Marital_Num" size="64" type="String" enabled="true" />
+                <FormulaField expression="IF [Card_Category] = &quot;Blue&quot; THEN 1&#xA;ELSEIF [Card_Category] = &quot;Silver&quot; THEN 2&#xA;ELSEIF [Card_Category] = &quot;Gold&quot; THEN 3&#xA;ELSEIF [Card_Category] = &quot;Platinum&quot; THEN 4&#xA;ELSE 0 ENDIF" field="Card_Num" size="64" type="String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Attrition_Flag_Num = IF [Attrition_Flag] = "Attrited Customer" THEN 1 ELSE 0 END...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="174" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CLIENTNUM" selected="False" />
+                <SelectField field="Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1" selected="False" />
+                <SelectField field="Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="105" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>BankChurners.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CLIENTNUM" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Attrition_Flag" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Customer_Age" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Gender" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Dependent_count" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Education_Level" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Marital_Status" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Income_Category" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Card_Category" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Months_on_book" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Total_Relationship_Count" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Months_Inactive_12_mon" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Contacts_Count_12_mon" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Credit_Limit" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Total_Revolving_Bal" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Avg_Open_To_Buy" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Total_Amt_Chng_Q4_Q1" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Total_Trans_Amt" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Total_Trans_Ct" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Total_Ct_Chng_Q4_Q1" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Avg_Utilization_Ratio" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+                <Field name="Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2" size="254" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings>
+            <Position x="558" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Selected_Field">Attrition_Flag_Num</Value>
+              <Value name="Oversample_Value">1</Value>
+              <Value name="Desired_Pct">50</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Oversample_Field.yxmc" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="474" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Customer_Age" selected="True" />
+                <Field field="Dependent_count" selected="True" />
+                <Field field="Months_on_book" selected="True" />
+                <Field field="Total_Relationship_Count" selected="True" />
+                <Field field="Months_Inactive_12_mon" selected="True" />
+                <Field field="Contacts_Count_12_mon" selected="True" />
+                <Field field="Credit_Limit" selected="True" />
+                <Field field="Total_Revolving_Bal" selected="True" />
+                <Field field="Avg_Open_To_Buy" selected="True" />
+                <Field field="Total_Amt_Chng_Q4_Q1" selected="True" />
+                <Field field="Total_Trans_Amt" selected="True" />
+                <Field field="Total_Trans_Ct" selected="True" />
+                <Field field="Total_Ct_Chng_Q4_Q1" selected="True" />
+                <Field field="Avg_Utilization_Ratio" selected="True" />
+                <Field field="Attrition_Flag_Num" selected="False" />
+                <Field field="Gender_Num" selected="False" />
+                <Field field="Education_Num" selected="False" />
+                <Field field="Income_Num" selected="False" />
+                <Field field="Marital_Num" selected="False" />
+                <Field field="Card_Num" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Customer_Age" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Byte" />
+                <Field name="Dependent_count" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Byte" />
+                <Field name="Months_on_book" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Byte" />
+                <Field name="Total_Relationship_Count" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Byte" />
+                <Field name="Months_Inactive_12_mon" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Byte" />
+                <Field name="Contacts_Count_12_mon" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Byte" />
+                <Field name="Credit_Limit" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Double" />
+                <Field name="Total_Revolving_Bal" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Int16" />
+                <Field name="Avg_Open_To_Buy" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Double" />
+                <Field name="Total_Amt_Chng_Q4_Q1" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Double" />
+                <Field name="Total_Trans_Amt" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Int16" />
+                <Field name="Total_Trans_Ct" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Byte" />
+                <Field name="Total_Ct_Chng_Q4_Q1" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Double" />
+                <Field name="Avg_Utilization_Ratio" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Lab3\BankChurners.csv" type="Double" />
+                <Field name="Attrition_Flag_Num" size="64" source="Formula: IF [Attrition_Flag] = &quot;Attrited Customer&quot; THEN 1 ELSE 0 ENDIF" type="String" />
+                <Field name="Gender_Num" size="64" source="Formula: IF [Gender] = &quot;M&quot; THEN 1 ELSE 0 ENDIF" type="String" />
+                <Field name="Education_Num" size="64" source="Formula: IF [Education_Level] = &quot;Uneducated&quot; THEN 1&#xA;ELSEIF [Education_Level] = &quot;High School&quot; THEN 2&#xA;ELSEIF [Education_Level] = &quot;College&quot; THEN 3&#xA;ELSEIF [Education_Level] = &quot;Graduate&quot; THEN 4&#xA;ELSEIF [Education_Level] = &quot;Post-Graduate&quot; THEN 5&#xA;ELSEIF [Education..." type="String" />
+                <Field name="Income_Num" size="64" source="Formula: IF [Income_Category] = &quot;Less than $40K&quot; THEN 1&#xA;ELSEIF [Income_Category] = &quot;$40K - $60K&quot; THEN 2&#xA;ELSEIF [Income_Category] = &quot;$60K - $80K&quot; THEN 3&#xA;ELSEIF [Income_Category] = &quot;$80K - $120K&quot; THEN 4&#xA;ELSEIF [Income_Category] = &quot;$120K +&quot; THEN 5&#xA;ELSE 0 ENDIF" type="String" />
+                <Field name="Marital_Num" size="64" source="Formula: IF [Marital_Status] = &quot;Single&quot; THEN 1&#xA;ELSEIF [Marital_Status] = &quot;Married&quot; THEN 2&#xA;ELSEIF [Marital_Status] = &quot;Divorced&quot; THEN 3&#xA;ELSE 0 ENDIF" type="String" />
+                <Field name="Card_Num" size="64" source="Formula: IF [Card_Category] = &quot;Blue&quot; THEN 1&#xA;ELSEIF [Card_Category] = &quot;Silver&quot; THEN 2&#xA;ELSEIF [Card_Category] = &quot;Gold&quot; THEN 3&#xA;ELSEIF [Card_Category] = &quot;Platinum&quot; THEN 4&#xA;ELSE 0 ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1061" y="137" width="303" height="233" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Model Comparison</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Model Comparison</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1086" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings>
+            <Position x="1158" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="target.level" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="predictions">
+              <RecordInfo>
+                <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Logistic_Regression" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Decision_Tree" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Forest_Model" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="error_measures">
+              <RecordInfo>
+                <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Accuracy" source="R-DATA:" type="Double" />
+                <Field name="Accuracy_0" source="R-DATA:" type="Double" />
+                <Field name="Accuracy_1" source="R-DATA:" type="Double" />
+                <Field name="F1" source="R-DATA:" type="Double" />
+                <Field name="AUC" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Report">
+              <RecordInfo>
+                <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+                <Field name="Layout" size="1073741823" source="Report:Layout:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Model Comparison.yxmc" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1266" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_9412_b84ee0dc4dfc4b898c0386449e6eb177_\Engine_9412_5a256aa70b9a4cc88700048be6dbcba2~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="713" y="41" width="315" height="377" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Model Building</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Model Building</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings>
+            <Position x="738" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="estimation pct">70</Value>
+              <Value name="validation pct">20</Value>
+              <Value name="rand seed">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="Logistic_Regression">
+            <Position x="834" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">advanced</Value>
+              <Value name="lambda_1se">True</Value>
+              <Value name="lambda_min">False</Value>
+              <Value name="Model Name">Logistic_Regression</Value>
+              <Value name="Y Var">Attrition_Flag_Num</Value>
+              <Value name="X Vars">Customer_Age,Dependent_count,Months_on_book,Total_Relationship_Count,Months_Inactive_12_mon,Contacts_Count_12_mon,Credit_Limit,Total_Revolving_Bal,Avg_Open_To_Buy,Total_Amt_Chng_Q4_Q1,Total_Trans_Amt,Total_Trans_Ct,Total_Ct_Chng_Q4_Q1,Avg_Utilization_Ratio,Gender_Num,Education_Num,Income_Num,Marital_Num,Card_Num</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec" />
+              <Value name="regularization">False</Value>
+              <Value name="alpha">0.5</Value>
+              <Value name="standardize_pred">False</Value>
+              <Value name="internal_cv">False</Value>
+              <Value name="nfolds">5</Value>
+              <Value name="lambda">lambda_1se</Value>
+              <Value name="set_seed_internal_cv">False</Value>
+              <Value name="seed_internal_cv">1</Value>
+              <Value name="lambda_no_cv">0.5</Value>
+              <Value name="posClass">
+              </Value>
+              <Value name="Link">logit</Value>
+              <Value name="external_cv">False</Value>
+              <Value name="nfolds_external">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="stratified">False</Value>
+              <Value name="set_seed_external_cv">False</Value>
+              <Value name="external_seed_value">1</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Logistic_Regression</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="Decision_Tree">
+            <Position x="834" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">model</Value>
+              <Value name="curToggle">toggle-main</Value>
+              <Value name="display.static">True</Value>
+              <Value name="set_seed_cv">True</Value>
+              <Value name="showClassificationCV">True</Value>
+              <Value name="showWhenTreePlotAvailable">True</Value>
+              <Value name="showWhenAlgorithmAvailable">True</Value>
+              <Value name="use.gini">True</Value>
+              <Value name="use.information">False</Value>
+              <Value name="usesurrogate.0">True</Value>
+              <Value name="usesurrogate.1">False</Value>
+              <Value name="usesurrogate.2">False</Value>
+              <Value name="total.correct">True</Value>
+              <Value name="percent.correct">False</Value>
+              <Value name="model_type">auto</Value>
+              <Value name="auto">True</Value>
+              <Value name="classification">False</Value>
+              <Value name="regression">False</Value>
+              <Value name="tree_summary">Counts</Value>
+              <Value name="Counts">True</Value>
+              <Value name="Proportions">False</Value>
+              <Value name="tree_plot_size">tree.inches</Value>
+              <Value name="tree.inches">True</Value>
+              <Value name="tree.centimeters">False</Value>
+              <Value name="pruning_plot_size">prune.inches</Value>
+              <Value name="prune.inches">True</Value>
+              <Value name="prune.centimeters">False</Value>
+              <Value name="Model Name">Decision_Tree</Value>
+              <Value name="Y Var">Attrition_Flag_Num</Value>
+              <Value name="X Vars">Customer_Age,Dependent_count,Months_on_book,Total_Relationship_Count,Months_Inactive_12_mon,Contacts_Count_12_mon,Credit_Limit,Total_Revolving_Bal,Avg_Open_To_Buy,Total_Amt_Chng_Q4_Q1,Total_Trans_Amt,Total_Trans_Ct,Total_Ct_Chng_Q4_Q1,Avg_Utilization_Ratio,Gender_Num,Education_Num,Income_Num,Marital_Num,Card_Num</Value>
+              <Value name="model.algorithm">rpart</Value>
+              <Value name="posClass">
+              </Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights" />
+              <Value name="splitting_criteria">use.gini</Value>
+              <Value name="surrogate_use">usesurrogate.0</Value>
+              <Value name="surrogate_split_criteria">total.correct</Value>
+              <Value name="min.split">20</Value>
+              <Value name="min.bucket">7</Value>
+              <Value name="xval.folds">10</Value>
+              <Value name="max.depth">20</Value>
+              <Value name="max.bins">
+              </Value>
+              <Value name="set_cp">False</Value>
+              <Value name="cp">0</Value>
+              <Value name="rules">False</Value>
+              <Value name="bands_check">False</Value>
+              <Value name="bands">10</Value>
+              <Value name="subset">False</Value>
+              <Value name="winnow">False</Value>
+              <Value name="GlobalPruning">False</Value>
+              <Value name="fuzzyThreshold">False</Value>
+              <Value name="earlyStopping">False</Value>
+              <Value name="trials">1</Value>
+              <Value name="CF">0.25</Value>
+              <Value name="minCases">2</Value>
+              <Value name="sample">0</Value>
+              <Value name="seed">1</Value>
+              <Value name="use_cv">False</Value>
+              <Value name="numberFolds">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="stratified">False</Value>
+              <Value name="cv_seed">1</Value>
+              <Value name="tree.plot">False</Value>
+              <Value name="Branch Dist">False</Value>
+              <Value name="tree.in.w">5.5</Value>
+              <Value name="tree.in.h">5.5</Value>
+              <Value name="tree.cm.w">13</Value>
+              <Value name="tree.cm.h">14.95</Value>
+              <Value name="tree.graph.resolution">1x</Value>
+              <Value name="tree.pointsize">8</Value>
+              <Value name="prune.plot">False</Value>
+              <Value name="prune.in.w">5.5</Value>
+              <Value name="prune.in.h">5.5</Value>
+              <Value name="prune.cm.w">13</Value>
+              <Value name="prune.cm.h">14.95</Value>
+              <Value name="prune.graph.resolution">1x</Value>
+              <Value name="prune.pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Decision_Tree</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings>
+            <Position x="834" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Model Name">Forest_Model</Value>
+              <Value name="Y Var">Attrition_Flag_Num</Value>
+              <Value name="X Vars">Customer_Age + Dependent_count + Months_on_book + Total_Relationship_Count + Months_Inactive_12_mon + Contacts_Count_12_mon + Credit_Limit + Total_Revolving_Bal + Avg_Open_To_Buy + Total_Amt_Chng_Q4_Q1 + Total_Trans_Amt + Total_Trans_Ct + Total_Ct_Chng_Q4_Q1 + Avg_Utilization_Ratio + Gender_Num + Education_Num + Income_Num + Marital_Num + Card_Num</Value>
+              <Value name="Num Trees">500</Value>
+              <Value name="Custom Num Vars">False</Value>
+              <Value name="Num Vars">3</Value>
+              <Value name="model.size">False</Value>
+              <Value name="total.nodes">100</Value>
+              <Value name="max.depth">10</Value>
+              <Value name="node.size">5</Value>
+              <Value name="replace">True</Value>
+              <Value name="samp.rate">100</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="918" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_9412_b84ee0dc4dfc4b898c0386449e6eb177_\Engine_9412_5a4ea7303869493fad4cabbd159be827~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="930" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_9412_b84ee0dc4dfc4b898c0386449e6eb177_\Engine_9412_fbdd1e3952014efb8959c2cf593f97a5~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="930" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_9412_b84ee0dc4dfc4b898c0386449e6eb177_\Engine_9412_0417aad906a44093bdbb4b2f01d5e0d1~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="930" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Owner\AppData\Local\Temp\Alteryx\Engine_9412_b84ee0dc4dfc4b898c0386449e6eb177_\Engine_9412_15c1da884f4c451ebf3a1103c0aa122e~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Models" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Validation" />
+      <Destination ToolID="21" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Report" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Estimation" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Estimation" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Estimation" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Interactive Report" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Interactive" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Reports" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="True" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>LAB Part 1_Autosave</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8fab13a8-44de-43d3-bf91-41bd3de8fc0d" />
+      <Telemetry>
+        <PreviousWorkflowId value="55d29993-4ba6-4e59-afa1-46f5daa73dad" />
+        <OriginWorkflowId value="d31ca066-a3bb-4022-87c3-1603949ecff8" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
