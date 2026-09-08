@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>customers.xlsx
+Query=`sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer ID" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+            <Field name="Store Number" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Responder" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Postcode" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="CustomerType" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="AverageTransaction" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+            <Field name="LastTransactionAmount" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+            <Field name="TransactionsPerYear" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+            <Field name="Income" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+            <Field name="HomeValue" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+            <Field name="Lat" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+            <Field name="Lon" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\customers.xlsx|||`sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>transactions.xlsx
+Query=`sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Order_ID" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Order_Priority" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Discount" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Unit_Price" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Quantity_ordered_new" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Order_Date" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Ship_Date" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Shipping_Cost" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Ship_Mode" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Category" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Sub-Category" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Container" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Base_Margin" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Profit" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="282" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Customer ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Customer_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Customer ID" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="270" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="word" />
+            <Field name="replacement" />
+          </Fields>
+          <Data>
+            <r>
+              <c>LN</c>
+              <c>LINE</c>
+            </r>
+            <r>
+              <c>ST</c>
+              <c>STREET</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="402" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Address</FieldFind>
+          <FieldSearch>word</FieldSearch>
+          <ReplaceFoundField>replacement</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="True" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="False" />
+          <ReplaceAppendFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Store Number" action="GroupBy" rename="Store Number" />
+            <SummarizeField field="Customer Segment" action="GroupBy" rename="Customer Segment" />
+            <SummarizeField field="Profit" action="Sum" rename="Profit by Segment" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="186" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Customer_ID" selected="False" />
+            <Field field="Order_ID" selected="False" />
+            <Field field="Order_Priority" selected="False" />
+            <Field field="Discount" selected="True" />
+            <Field field="Unit_Price" selected="True" />
+            <Field field="Quantity_ordered_new" selected="True" />
+            <Field field="Order_Date" selected="False" />
+            <Field field="Ship_Date" selected="False" />
+            <Field field="Shipping_Cost" selected="False" />
+            <Field field="Ship_Mode" selected="False" />
+            <Field field="Product_Category" selected="False" />
+            <Field field="Product_Sub-Category" selected="False" />
+            <Field field="Product_Container" selected="False" />
+            <Field field="Product_Base_Margin" selected="False" />
+            <Field field="Profit" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Order_ID" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Order_Priority" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Discount" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="Double" />
+            <Field name="Unit_Price" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="Double" />
+            <Field name="Quantity_ordered_new" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="Byte" />
+            <Field name="Order_Date" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Ship_Date" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Shipping_Cost" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Ship_Mode" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Category" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Sub-Category" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Container" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Product_Base_Margin" size="255" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="V_String" />
+            <Field name="Profit" source="File: C:\Users\Owner\Documents\UTM\UTM sem 6\BI\Dataset\transactions.xlsx|||`sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Profit" action="Sum" rename="Total Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="630" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="714" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([Profit by Segment]/[Total Profit])*100" field="Percentage" size="19.2" type="FixedDecimal" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Percentage = ([Profit by Segment]/[Total Profit])*100
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="822" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Total Profit" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="6" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Lab 2_Data Prep</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2eb348c2-bdc6-466c-a9f0-8d43ed21e693" />
+      <Telemetry>
+        <PreviousWorkflowId value="d99d3cfc-c749-464d-a431-002b8e4d0e7c" />
+        <OriginWorkflowId value="d99d3cfc-c749-464d-a431-002b8e4d0e7c" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
